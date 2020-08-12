@@ -1,0 +1,79 @@
+{
+  "testing": "setttiinnnnggg",
+  "navigator": {
+    "wallet": "Wallet",
+    "trade": "Trade",
+    "explorer": "Explorer",
+    "settings": "Settings"
+  },
+  "settings": {
+    "title": "Settings",
+    "items": {
+      "language": "Language"
+    }
+  },
+  "marketInfo": {
+    "title": "Market Info",
+    "items": {
+      "reserve": "Reserve",
+      "marketcap": "Marketcap",
+      "circulation": "Circulation",
+      "hodlcPrice": "HODLC Price"
+    }
+  },
+  "wallet": {
+    "balances": {
+      "title": "Wallet balance",
+      "card": {
+        "eth": {
+          "btn1": "Deposit",
+          "btn2": "Withdraw"
+        },
+        "hodlc": {
+          "btn1": "Trade",
+          "btn2": "To HODLT"
+        },
+        "hodlt": {
+          "btn1": "Approve",
+          "btn2": "To HODLC",
+          "approveToRedeem": "are approved to redeem"
+        }
+      }
+    },
+    "transactions": {
+      "title": "Transactions"
+    }
+  },
+  "eventList": {
+    "title": {
+      "my": "My Events ({{number}} events)",
+      "global": "Global Events ({{number}} events)"
+    },
+    "lengthOptions": {
+      "1hour": "past 1 hour",
+      "6hour": "past 6 hour",
+      "24hour": "past 1 day",
+      "72hour": "past 3 day",
+      "168hour": "past 1 week",
+      "all": "all time"
+    },
+    "list": {
+      "noEvents": "No events",
+      "header": {
+        "txnHash": "Txn Hash",
+        "address": "Address",
+        "block": "Block",
+        "action": "Action"
+      }
+    }
+  },
+  "trade": {
+    "info": {
+      "balances": "Your Balances"
+    },
+    "action": {
+      "buy": "Buy",
+      "sell": "Sell"
+    }
+  }
+}
