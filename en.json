@@ -71,9 +71,52 @@
     "info": {
       "balances": "Your Balances"
     },
-    "action": {
+    "switcher": {
       "buy": "Buy",
       "sell": "Sell"
+    },
+    "promptToConnet": {
+      "connect": "Connect with",
+      "startTrade": " to start trading"
+    },
+    "form": {
+      "placeholder": "Add an value...",
+      "equivalent": "equivalent",
+      "estimate": "estimate",
+      "action": {
+        "buy": "Buy",
+        "sell": "Sell"
+      }
+    },
+    "orderBook": {
+      "global": "Global Orders",
+      "myOrders": "My Orders",
+      "singleOrder": "Total {{amount}} {{units}} in the queue",
+      "multiOrders": "Total {{amount}} {{units}}s in the queue",
+      "title": {
+        "orderId": "Order Id",
+        "price": "Price",
+        "buy": "buyer",
+        "sell": "Seller"
+      },
+      "noEvent": "No events",
+      "cancel": "cancel"
+    },
+    "alert": "Metamask or Mist is not installed. You should consider trying MetaMask or Mist!",
+    "notify": {
+      "cancel": "You cancel order of {{id}}, waiting for Ethereum to confirm.",
+      "sellMin": "Sell at least {{min}} HODLC, at current rate.",
+      "sellMax": "Sell at most {{max}} HODLC, at current rate.",
+      "successSell": "You sell {{hodlc}} HODLC, waiting for Ethereum to confirm.",
+      "buyMin": "Buy with at least {{min}} ETH, at current rate.",
+      "buyMax": "Buy with at most {{max}} ETH, at current rate.",
+      "successsBuy": "You buy {{hodlc}} HODLC, waiting for Ethereum to confirm."
+    },
+    "modal": {
+      "header": "Cancel Order",
+      "content": "Are you sure you want to cancel this order?",
+      "no": "No",
+      "cancel": "Cancel with"
     }
   }
 }
