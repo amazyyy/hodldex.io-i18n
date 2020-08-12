@@ -11,6 +11,7 @@ This repo contains i18n JSON files that will be used by production built of http
 ### Start translate
 
 - check `en.json`, copy the content inside it, and start to translate, key by key
+- leave the key as it was, only change the content.
 - variables are inside doupble {{curly braces}}, leave variables as it was
 
 ### Example
@@ -43,7 +44,8 @@ es.json
 }
 ```
 
-because number is inside `{{}}`, it is variables, leave it as it was.
+- don't change `eventList`, `title`, `my` and `global`, because they are keys.
+- don't change {{number}}, because number is inside `{{}}`, it is variables
 
 ## Resources
 
