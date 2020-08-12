@@ -15,7 +15,7 @@
   "marketInfo": {
     "title": "市場資訊",
     "items": {
-      "reserve": "Reserve",
+      "reserve": "剩餘儲備",
       "marketcap": "總市值",
       "circulation": "流通量",
       "hodlcPrice": "HODLC 價格"
