@@ -1,0 +1,24 @@
+{
+  "wallet": {
+    "balances": {
+      "title": "錢包餘額",
+      "card": {
+        "eth": {
+          "btn1": "存入",
+          "btn2": "提出"
+        },
+        "hodlc": {
+          "btn1": "交易",
+          "btn2": "發行"
+        },
+        "hodlt": {
+          "btn1": "授權",
+          "btn2": "兌換"
+        }
+      }
+    },
+    "transactions": {
+      "title": "進出紀錄"
+    }
+  }
+}
