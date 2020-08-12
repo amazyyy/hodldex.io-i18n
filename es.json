@@ -105,6 +105,7 @@
     "alert": "Metamask o Mist no están instalados. ¡Debería considerar probar MetaMask o Mist!",
     "notify": {
       "cancel": "Cancela orden de {{id}}, esperando que Ethereum confirme.",
+      "notEnoughEth": "You only have {{ethAmount}} ETH, go to wallet page and deposit enough ETH.",
       "sellMin": "Vende al menos {{min}} HODLC, a tarifas actuales.",
       "sellMax": "Vender como máximo {{max}} HODLC, a tarifas actuales.",
       "successSell": "Vendes {{hodlc}} HODLC, esperando que Ethereum confirme.",
