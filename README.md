@@ -10,17 +10,17 @@ This repo contains i18n JSON files that will be used by production built of http
 
 ### Start translate
 
-- check `en.json`, copy the content inside it, and start to translate, key by key
-- leave the key as it was, only change the content.
-- variables are inside doupble {{curly braces}}, leave variables as it was
+1. check `en.json`, copy the content inside it to a new JSON file, and start to translate, key by key
+
+2. leave the key as it was, only change the content.
+
+3. variables are inside doupble {{curly braces}}, leave variables as it was
 
 ### Example
 
 To translate english to spanish, first copy `en.json` to `es.json`, start to update content of es.json:
 
-from
-
-en.json
+from english version(`en.json`)
 ```json
  "eventList": {
     "title": {
@@ -31,9 +31,7 @@ en.json
 }
 ```
 
-to spanish version
-
-es.json
+to spanish version(`es.json`)
 ```json
  "eventList": {
     "title": {
@@ -46,6 +44,10 @@ es.json
 
 - don't change `eventList`, `title`, `my` and `global`, because they are keys.
 - don't change {{number}}, because number is inside `{{}}`, it is variables
+
+## Pull request
+
+have admin to review and merge it.
 
 ## Resources
 
