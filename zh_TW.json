@@ -1,13 +1,16 @@
 {
   "testing": "測試試試試試試",
+  "bottom": {
+    "twitterShare": "Hodl HODLC!"
+  },
   "navigator": {
     "wallet": "錢包",
     "trade": "交易",
-    "explorer": "瀏覽器",
-    "settings": "使用者偏好"
+    "explorer": "探索",
+    "settings": "設定"
   },
   "settings": {
-    "title": "使用者偏好",
+    "title": "設定",
     "items": {
       "language": "語言"
     }
@@ -15,7 +18,7 @@
   "marketInfo": {
     "title": "市場資訊",
     "items": {
-      "reserve": "剩餘儲備",
+      "reserve": "儲備量",
       "marketcap": "總市值",
       "circulation": "流通量",
       "hodlcPrice": "HODLC 價格"
@@ -27,7 +30,7 @@
       "card": {
         "eth": {
           "btn1": "存入",
-          "btn2": "提領"
+          "btn2": "提出"
         },
         "hodlc": {
           "btn1": "交易",
@@ -39,9 +42,6 @@
           "approveToRedeem": "已授權被兌換"
         }
       }
-    },
-    "transactions": {
-      "title": "Transactions"
     },
     "notify": {
       "nothing": "Nothing happens :)",
@@ -56,9 +56,9 @@
       "otherActions": {
         "template": "You {{action}} {{amount}} {{units}}, waiting for Ethereum to confirm.",
         "action": {
-          "deposit": "deposit",
-          "withdraw": "withdraw",
-          "approve": "approve"
+          "deposit": "存入",
+          "withdraw": "提出",
+          "approve": "授權"
         },
         "units": {
           "eth": "ETH",
@@ -69,63 +69,64 @@
   },
   "eventList": {
     "title": {
-      "my": "My Events ({{number}} events)",
-      "global": "Global Events ({{number}} events)"
+      "my": "錢包紀錄 ({{number}} 事件)",
+      "global": "全球 ({{number}} 事件)"
     },
     "lengthOptions": {
-      "1hour": "past 1 hour",
-      "6hour": "past 6 hour",
-      "24hour": "past 1 day",
-      "72hour": "past 3 day",
-      "168hour": "past 1 week",
-      "all": "all time"
+      "1hour": "過去 1 小時",
+      "6hour": "過去 6 小時",
+      "24hour": "過去 1 天",
+      "72hour": "過去 3 天",
+      "168hour": "過去 1 星期",
+      "all": "全部紀錄"
     },
     "list": {
-      "noEvents": "No events",
+      "noEvents": "尚無資料",
       "header": {
-        "txnHash": "Txn Hash",
-        "address": "Address",
-        "block": "Block",
-        "action": "Action"
+        "txnHash": "交易紀錄",
+        "address": "用戶地址",
+        "block": "區塊",
+        "action": "紀錄"
       }
     }
   },
   "trade": {
     "info": {
-      "balances": "Your Balances"
+      "balances": "錢包餘額"
     },
     "switcher": {
-      "buy": "Buy",
-      "sell": "Sell"
+      "buy": "買",
+      "sell": "賣"
     },
     "promptToConnet": {
-      "connect": "Connect with",
-      "startTrade": " to start trading"
+      "connect": "連結",
+      "startTrade": " 開始交易"
     },
     "form": {
       "placeholder": "Add an value...",
-      "equivalent": "equivalent",
-      "estimate": "estimate",
+      "equivalent": "等值",
+      "estimate": "估值",
       "action": {
-        "buy": "Buy",
-        "sell": "Sell"
+        "buy": "買",
+        "sell": "賣",
+        "deposit": "存入"
       }
     },
     "orderBook": {
-      "global": "Global Orders",
-      "myOrders": "My Orders",
-      "singleOrder": "Total {{amount}} {{units}} in the queue",
-      "multiOrders": "Total {{amount}} {{units}}s in the queue",
+      "global": "全球市場",
+      "myOrders": "我的單",
+      "singleOrder": "總共 {{amount}} {{units}}",
+      "multiOrders": "總共 {{amount}} {{units}}s",
       "title": {
-        "orderId": "Order Id",
-        "price": "Price",
-        "buy": "buyer",
-        "sell": "Seller"
+        "orderId": "序號",
+        "price": "價格",
+        "buy": "買家",
+        "sell": "賣家"
       },
-      "noEvent": "No events",
-      "cancel": "cancel"
+      "noEvent": "尚無資料",
+      "cancel": "取消"
     },
-    "alert": "Metamask or Mist is not installed. You should consider trying MetaMask or Mist!",
+    "alert": "你沒有安裝 Metamask 錢包. 建議下載 Metamask 擴充",
     "notify": {
       "cancel": "You cancel order of {{id}}, waiting for Ethereum to confirm.",
       "sellMin": "Sell at least {{min}} HODLC, at current rate.",
@@ -135,11 +136,11 @@
       "buyMax": "Buy with at most {{max}} ETH, at current rate.",
       "successsBuy": "You buy {{hodlc}} HODLC, waiting for Ethereum to confirm."
     },
-    "modal": {
-      "header": "Cancel Order",
-      "content": "Are you sure you want to cancel this order?",
-      "no": "No",
-      "cancel": "Cancel with"
+    "cancelModal": {
+      "header": "取消訂單",
+      "content": "你確定要取消這個訂單嗎？",
+      "no": "稍後",
+      "cancel": "確定"
     }
   }
 }
