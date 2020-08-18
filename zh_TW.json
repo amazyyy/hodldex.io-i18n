@@ -30,7 +30,7 @@
       "card": {
         "eth": {
           "btn1": "存入",
-          "btn2": "提出"
+          "btn2": "提領"
         },
         "hodlc": {
           "btn1": "交易",
@@ -69,30 +69,30 @@
   },
   "eventList": {
     "title": {
-      "my": "錢包紀錄 ({{number}} 事件)",
-      "global": "全球 ({{number}} 事件)"
+      "my": "我的交易活動({{number}}活動)",
+      "global": "全部交易活動({{number}}活動)"
     },
     "lengthOptions": {
-      "1hour": "過去 1 小時",
-      "6hour": "過去 6 小時",
-      "24hour": "過去 1 天",
-      "72hour": "過去 3 天",
-      "168hour": "過去 1 星期",
+      "1hour": "過去1小時内",
+      "6hour": "過去6小時内",
+      "24hour": "過去1天内",
+      "72hour": "過去3天内",
+      "168hour": "過去1週内",
       "all": "全部紀錄"
     },
     "list": {
-      "noEvents": "尚無資料",
+      "noEvents": "尚無交易活動",
       "header": {
-        "txnHash": "交易紀錄",
+        "txnHash": "交易哈希值",
         "address": "用戶地址",
         "block": "區塊",
-        "action": "紀錄"
+        "action": "類型"
       }
     }
   },
   "trade": {
     "info": {
-      "balances": "錢包餘額"
+      "balances": "您的總資產"
     },
     "switcher": {
       "buy": "買",
@@ -123,18 +123,18 @@
         "buy": "買家",
         "sell": "賣家"
       },
-      "noEvent": "尚無資料",
+      "noEvent": "沒有交易活動",
       "cancel": "取消"
     },
     "alert": "你沒有安裝 Metamask 錢包. 建議下載 Metamask 擴充",
     "notify": {
-      "cancel": "You cancel order of {{id}}, waiting for Ethereum to confirm.",
-      "sellMin": "Sell at least {{min}} HODLC, at current rate.",
-      "sellMax": "Sell at most {{max}} HODLC, at current rate.",
-      "successSell": "You sell {{hodlc}} HODLC, waiting for Ethereum to confirm.",
-      "buyMin": "Buy with at least {{min}} ETH, at current rate.",
-      "buyMax": "Buy with at most {{max}} ETH, at current rate.",
-      "successsBuy": "You buy {{hodlc}} HODLC, waiting for Ethereum to confirm."
+      "cancel": "您取消訂單{{id}},請等待 Ethereum 的確認。",
+      "sellMin": "以當前價格，賣出至少{{min}}HODLC。",
+      "sellMax": "以當前價格，賣出至多{{max}}HODLC。",
+      "successSell": "您賣出{{hodlc}} HODLC, 請等待 Ethereum 的確認。",
+      "buyMin": "以當前價格，用至少{{min}} ETH買入。",
+      "buyMax": "以當前價格，用至多{{max}} ETH買入。",
+      "successsBuy": "您買入{{hodlc}} HODLC, 請等待 Ethereum 的確認。"
     },
     "cancelModal": {
       "header": "取消訂單",
