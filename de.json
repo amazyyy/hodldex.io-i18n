@@ -1,0 +1,122 @@
+{
+  "testing": "setttiinnnnngggg",
+  "navigator": {
+    "wallet": "Brieftasche",
+    "trade": "Handel",
+    "explorer": "Explorer",
+    "settings": "Einstellungen"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "items": {
+      "language": "Sprache"
+    }
+  },
+  "marketInfo": {
+    "title": "Markt-Info",
+    "items": {
+      "reserve": "Vorrat",
+      "marketcap": "Marktwert",
+      "circulation": "Umlauf",
+      "hodlcPrice": "HODLC Preis"
+    }
+  },
+  "wallet": {
+    "balances": {
+      "title": "Kontostand",
+      "card": {
+        "eth": {
+          "btn1": "Einzahlung",
+          "btn2": "Auszahlung"
+        },
+        "hodlc": {
+          "btn1": "Handel",
+          "btn2": "An HODLT"
+        },
+        "hodlt": {
+          "btn1": "Freigeben",
+          "btn2": "An HODLC",
+          "approveToRedeem": "zur Einlösung genehmigt"
+        }
+      }
+    },
+    "transactions": {
+      "title": "Transaktionen"
+    }
+  },
+  "eventList": {
+    "title": {
+      "my": "Meine Vorgänge ({{number}} events)",
+      "global": "Globale Vorgänge ({{number}} events)"
+    },
+    "lengthOptions": {
+      "1hour": "nach 1 Stunde",
+      "6hour": "nach 6 Stunden",
+      "24hour": "nach 1 Tag",
+      "72hour": "nach 3 Tagen",
+      "168hour": "nach 1 Woche",
+      "all": "Alle"
+    },
+    "list": {
+      "noEvents": "Keine Vorgänge",
+      "header": {
+        "txnHash": "Txn Hash",
+        "address": "Addresse",
+        "block": "Block",
+        "action": "Aktion"
+      }
+    }
+  },
+  "trade": {
+    "info": {
+      "balances": "Ihre Bilanz"
+    },
+    "switcher": {
+      "buy": "Kaufen",
+      "sell": "Verkaufen"
+    },
+    "promptToConnet": {
+      "connect": "Verbinden mit",
+      "startTrade": "Handel starten"
+    },
+    "form": {
+      "placeholder": "Einen Wert hinzufügen...",
+      "equivalent": "Äquivalent",
+      "estimate": "geschätzt",
+      "action": {
+        "buy": "Kaufen",
+        "sell": "Verkaufen"
+      }
+    },
+    "orderBook": {
+      "global": "Globale Aufträge",
+      "myOrders": "Meine Aufträge",
+      "singleOrder": "Total {{amount}} {{units}} in der Warteschlange",
+      "multiOrders": "Total {{amount}} {{units}} in der Warteschlange",
+      "title": {
+        "orderId": "Auftrags-ID",
+        "price": "Preis",
+        "buy": "Käufer",
+        "sell": "Verkäufer"
+      },
+      "noEvent": "Keine Aufträge",
+      "cancel": "abbrechen"
+    },
+    "alert": "Metamask oder Mist ist nicht installiert. Sie sollten erwägen MetaMask oder Mist auszuprobieren!",
+    "notify": {
+      "cancel": "Auftrag stornieren für {{id}}, warten auf die Bestätigung von Ethereum.",
+      "sellMin": "Verkaufe mindestens {{min}} HODLC, zum aktuellen Kurs.",
+      "sellMax": "Verkaufe höchstens {{max}} HODLC, zum aktuellen Kurs.",
+      "successSell": "Sie verkaufen {{hodlc}} HODLC, warten auf die Bestätigung von Ethereum.",
+      "buyMin": "Kaufe mindestens {{min}} ETH, zum aktuellen Kurs.",
+      "buyMax": "Kaufe höchstens {{max}} ETH, zum aktuellen Kurs.",
+      "successsBuy": "Sie kaufen {{hodlc}} HODLC, warten auf die Bestätigung von Ethereum."
+    },
+    "modal": {
+      "header": "Auftrag stornieren",
+      "content": "Sind Sie sicher, dass Sie den Auftrag stornieren wollen?",
+      "no": "Nein",
+      "cancel": "Abbrechen mit"
+    }
+  }
+}
