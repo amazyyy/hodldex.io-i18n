@@ -62,6 +62,9 @@
           "hodlt": "HODLT"
         }
       }
+    },
+    "modal": {
+      "max": "Max"
     }
   },
   "eventList": {
