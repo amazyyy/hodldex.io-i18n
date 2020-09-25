@@ -91,6 +91,8 @@
     }
   },
   "trade": {
+    "maximumBtn": "max",
+    "minimumBtn": "min",
     "info": {
       "balances": "您的总资产"
     },

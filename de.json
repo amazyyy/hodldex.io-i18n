@@ -88,6 +88,8 @@
     }
   },
   "trade": {
+    "maximumBtn": "max",
+    "minimumBtn": "min",
     "info": {
       "balances": "Ihre Bilanz"
     },
