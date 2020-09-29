@@ -7,7 +7,8 @@
     "wallet": "钱包",
     "trade": "交易",
     "explorer": "浏览器",
-    "settings": "设置"
+    "settings": "设置",
+    "calculator": "Calculator"
   },
   "settings": {
     "title": "设置",

@@ -7,7 +7,8 @@
     "wallet": "Wallet",
     "trade": "Trade",
     "explorer": "Explorer",
-    "settings": "Settings"
+    "settings": "Settings",
+    "calculator": "Calculator"
   },
   "settings": {
     "title": "Settings",

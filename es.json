@@ -7,7 +7,8 @@
     "wallet": "Billetera",
     "trade": "Intercambiar",
     "explorer": "Explorador",
-    "settings": "Configuraciones"
+    "settings": "Configuraciones",
+    "calculator": "Calculator"
   },
   "settings": {
     "title": "Configuraciones",
