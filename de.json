@@ -49,8 +49,8 @@
       "toHodltMax": "You can only transfer at most {{hodlc}} {{type}} to HODLT.",
       "toHodlcMax": "You can only transfer at most {{redeemPower}} {{type}} to HODLC.",
       "approveMax": "You can only approve at most {{limit}} {{type}}.",
-      "toHodlc": "You convert {{amount}} HODLT to {{amount}} HODLC, waiting for Ethereum to confirm.",
-      "toHodlt": "You convert {{amount}} HODLC to {{amount}} HODLT, waiting for Ethereum to confirm.",
+      "toHodlc": "You convert {{amount}} HODLT to {{hodlcAmount}} HODLC, waiting for Ethereum to confirm.",
+      "toHodlt": "You convert {{hodlcAmount}} HODLC to {{amount}} HODLT, waiting for Ethereum to confirm.",
       "otherActions": {
         "template": "You {{action}} {{amount}} {{units}}, waiting for Ethereum to confirm.",
         "action": {
