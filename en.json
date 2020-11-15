@@ -141,7 +141,8 @@
       "successSell": "You sell {{hodlc}} HODLC, waiting for Ethereum to confirm.",
       "buyMin": "Buy with at least {{min}} ETH, at current rate.",
       "buyMax": "Buy with at most {{max}} ETH, at current rate.",
-      "successsBuy": "You buy about {{hodlc}} HODLC, waiting for Ethereum to confirm."
+      "successBuy": "You buy about {{hodlc}} HODLC, waiting for Ethereum to confirm.",
+      "cannotRemoveDust": "This is the origin dust, you cannot performance transformation to make it disappear."
     },
     "modal": {
       "header": "Cancel Order",

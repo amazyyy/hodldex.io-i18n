@@ -139,7 +139,7 @@
       "successSell": "您卖出{{hodlc}} HODLC请等待Ethereum的确认。",
       "buyMin": "以当前价格，用至少{{min}} ETH买入。",
       "buyMax": "以当前价格，用最多{{max}} ETH买入。",
-      "successsBuy": "您买入{{hodlc}} HODLC，请等待Ethereum的确认。"
+      "successBuy": "您买入{{hodlc}} HODLC，请等待Ethereum的确认。"
     },
     "modal": {
       "header": "取消订单",

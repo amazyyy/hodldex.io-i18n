@@ -141,7 +141,7 @@
       "successSell": "Vendes {{hodlc}} HODLC, esperando que Ethereum confirme.",
       "buyMin": "Compra con al menos {{min}} ETH, a tarifas actuales.",
       "buyMax": "Compra con como máximo {{max}} ETH, A tarifas actuales.",
-      "successsBuy": "Tu compras {{hodlc}} HODLC, esperando que Ethereum confirme."
+      "successBuy": "Tu compras {{hodlc}} HODLC, esperando que Ethereum confirme."
     },
     "modal": {
       "header": "Cancel Order",
