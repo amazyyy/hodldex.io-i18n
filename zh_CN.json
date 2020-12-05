@@ -147,5 +147,10 @@
       "no": "否",
       "cancel": "确认"
     }
+  },
+  "calculator": {
+    "disclaimer": {
+      "title": "Calculator Disclaimer"
+    }
   }
 }

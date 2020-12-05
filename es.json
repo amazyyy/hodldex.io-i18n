@@ -149,5 +149,10 @@
       "no": "No",
       "cancel": "Cancelar con"
     }
+  },
+  "calculator": {
+    "disclaimer": {
+      "title": "Calculator Disclaimer"
+    }
   }
 }
