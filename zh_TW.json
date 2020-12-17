@@ -8,7 +8,8 @@
     "trade": "交易",
     "explorer": "探索",
     "settings": "設定",
-    "calculator": "Calculator"
+    "calculator": "獲利模擬",
+    "joinUs": "加入我們"
   },
   "settings": {
     "title": "設定",
@@ -45,20 +46,20 @@
       }
     },
     "notify": {
-      "nothing": "Nothing happens :)",
-      "notConnected": "Metamask/Mist is not connected, try again.",
-      "depositeEthMax": "You can only deposite at most {{limit}} {{type}}.",
-      "withdrawEthMax": "You can only withdraw at most {{eth}} {{type}}.",
-      "toHodltMax": "You can only transfer at most {{hodlc}} {{type}} to HODLT.",
-      "toHodlcMax": "You can only transfer at most {{redeemPower}} {{type}} to HODLC.",
-      "approveMax": "You can only approve at most {{limit}} {{type}}.",
-      "toHodlc": "You convert {{amount}} HODLT to {{hodlcAmount}} HODLC, waiting for Ethereum to confirm.",
-      "toHodlt": "You convert {{hodlcAmount}} HODLC to {{amount}} HODLT, waiting for Ethereum to confirm.",
+      "nothing": "此動作無效果 :)",
+      "notConnected": "沒有連結上 Metamask/Mist，請再試一次",
+      "depositeEthMax": "你只能最多存入 {{limit}} {{type}}",
+      "withdrawEthMax": "你只能最多提領 {{eth}} {{type}}",
+      "toHodltMax": "你只能最多兌換 {{hodlc}} {{type}} 成 HODLT",
+      "toHodlcMax": "你只能最多兌換 {{redeemPower}} {{type}} 成 HODLC.",
+      "approveMax": "你只能最多授權 {{limit}} {{type}}.",
+      "toHodlc": "您兌換了 {{amount}} HODLT 成 {{hodlcAmount}} HODLC, 等待乙太坊確認",
+      "toHodlt": "您兌換了 {{hodlcAmount}} HODLC 成 {{amount}} HODLT, 等待乙太坊確認",
       "otherActions": {
-        "template": "You {{action}} {{amount}} {{units}}, waiting for Ethereum to confirm.",
+        "template": "您 {{action}} {{amount}} {{units}}, 等待乙太坊確認",
         "action": {
           "deposit": "存入",
-          "withdraw": "提出",
+          "withdraw": "提領",
           "approve": "授權"
         },
         "units": {
@@ -151,7 +152,7 @@
   },
   "calculator": {
     "disclaimer": {
-      "title": "Calculator Disclaimer"
+      "title": "免責聲明"
     }
   }
 }
