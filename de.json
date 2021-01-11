@@ -1,5 +1,11 @@
 {
   "testing": "setttiinnnnngggg",
+  "system": {
+    "ethereum": {
+      "confirmed" : "Ethereum Confirmed!",
+      "Failed": "[Trasaction Failed]"
+    }
+  },
   "navigator": {
     "wallet": "Brieftasche",
     "trade": "Handel",

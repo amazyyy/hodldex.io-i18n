@@ -1,5 +1,11 @@
 {
   "testing": "測試試試試試試",
+  "system": {
+    "ethereum": {
+      "confirmed" : "Ethereum Confirmed!",
+      "Failed": "[Trasaction Failed]"
+    }
+  },
   "bottom": {
     "twitterShare": "HODL!"
   },
