@@ -2,8 +2,8 @@
   "testing": "setttiinnnnngggg",
   "system": {
     "ethereum": {
-      "confirmed" : "Ethereum Confirmed!",
-      "Failed": "[Trasaction Failed]"
+      "confirmed" : "Ethereum confirmed!",
+      "failed": "Transaction canceled!"
     }
   },
   "bottom": {
