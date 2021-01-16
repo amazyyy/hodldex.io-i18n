@@ -2,8 +2,8 @@
   "testing": "測試試試試試試",
   "system": {
     "ethereum": {
-      "confirmed" : "Ethereum confirmed!",
-      "failed": "Transaction canceled!"
+      "confirmed" : "乙太坊確認!",
+      "failed": "交易取消"
     }
   },
   "bottom": {
@@ -15,7 +15,12 @@
     "explorer": "探索",
     "settings": "設定",
     "calculator": "獲利模擬",
-    "joinUs": "加入我們"
+    "joinUs": "關注我們",
+    "footer": {
+      "website": "官方網站",
+      "termsOfUse": "使用條款聲明",
+      "whitepaper": "白皮書"
+    }
   },
   "settings": {
     "title": "設定",
@@ -31,6 +36,10 @@
       "circulation": "流通量",
       "hodlcPrice": "HODLC 價格"
     }
+  },
+  "wallet-connect": {
+    "choose": "選擇你的錢包",
+    "btn": "連結錢包"
   },
   "wallet": {
     "balances": {
@@ -75,7 +84,22 @@
       }
     },
     "modal": {
-      "max": "Max"
+      "max": "Max",
+      "title": {
+        "Deposit": "存入",
+        "Withdraw": "提領",
+        "To HODLT": "兌換成 HODLT",
+        "To HODLC": "兌換成 HODLC",
+        "Approve": "授權"
+      },
+      "btn": {
+        "cancel": "取消",
+        "yes": "確認"
+      },
+      "content": {
+        "amount": "數量",
+        "estimated": "大約為"
+      }
     }
   },
   "eventList": {
@@ -98,6 +122,17 @@
         "address": "用戶地址",
         "block": "區塊",
         "action": "類型"
+      },
+      "content": {
+        "type" : {
+          "buy HODLC": "買 HODLC",
+          "sell HODLC": "賣 HODLC",
+          "To HODLC": "兌換成 HODLC",
+          "To HODLT": "兌換成 HODLT",
+          "deposit": "存入",
+          "withdraw": "提領",
+          "approve": "授權"
+        }
       }
     }
   },
@@ -157,11 +192,93 @@
     }
   },
   "calculator": {
+    "title": "Calculator",
     "disclaimer": {
-      "title": "免責聲明"
+      "title": "Calculator Disclaimer",
+      "cancel": "Cancel",
+      "agree": "I agree"
+    },
+    "mode": {
+      "simple": "Simple Mode",
+      "resurring": "Recurring Mode",
+      "cashOut": "Cash Out Mode"
+    },
+    "simple": {
+      "form": {
+        "inputAmount": {
+          "1": "If I hold",
+          "2": "for",
+          "3": "days"
+        },
+        "aboutTransactionPerDay": {
+          "1": "and I assume",
+          "2": "transactions take place every day."
+        },
+        "references": "References: there are about <b>{{avgTransaction}}</b> transactions per day in the last <b>{{avgDay}}</b> days"
+      },
+      "summary": {
+        "endAmount": "The value is estimated to become <b>{{result}} USD</b> at the end of the period.",
+        "endGrowth": "The total potential growth is <b>{{result}} USD</b> at the end of the period.",
+        "endPercentageIncrease": "The potential percentage increase is <b>{{result}} %</b> at the end of the period."
+      }
+    },
+    "recurring": {
+      "form": {
+        "inputAmount": {
+          "1": "If I deposit",
+          "options": {
+            "daily": "daily",
+            "weekly": "weekly",
+            "monthly": "monthly"
+          },
+          "2": "for",
+          "3": "months"
+        },
+        "aboutTransactionPerDay": {
+          "1": "and I assume",
+          "2": "transactions take place every day."
+        },
+        "references": "References: there are about <b>{{avgTransaction}}</b> transactions per day in the last <b>{{avgDay}}</b> days"
+      },
+      "summary": {
+        "endAmount": "The value is estimated to become <b>{{result}} USD</b> at the end of the period.",
+        "endGrowth": "The total potential growth is <b>{{result}} USD</b> at the end of the period.",
+        "endPercentageIncrease": "The potential percentage increase is <b>{{result}} %</b> at the end of the period."
+      }
+    },
+    "cashOut": {
+      "form": {
+        "inputAmount": {
+          "1": "If I hold",
+          "2": "for",
+          "3": "days"
+        },
+        "aboutTransactionPerDay": {
+          "1": "and I assume",
+          "2": "transactions take place every day"
+        },
+        "references": "References: there are about <b>{{avgTransaction}}</b> transactions per day in the last <b>{{avgDay}}</b> days",
+        "cashOutFrquency": {
+          "1": "I plan to cash out",
+          "options": {
+            "daily": "daily",
+            "weekly": "weekly",
+            "monthly": "monthly"
+          }
+        }
+      },
+      "summary": {
+        "canCashOutEvg": "I can cash out on average <b>{{result}} USD</b> {{cashOutPeriod}}",
+        "endCashOutAmount": "I will be cashing out <b>{{result}} USD</b> in total and my HODLC value will remain the same at the end of the period.",
+        "endHODLCAmount": "I will hold <b>{{result}}</b> HODLC at the end of the period."
+      }
     }
   },
   "joinUs": {
-    "title": "Join Us"
+    "title": "關注我們",
+    "content" : {
+      "title": "官方社群",
+      "close": "關閉"
+    }
   }
 }
