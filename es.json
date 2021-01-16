@@ -58,7 +58,8 @@
           "btn2": "Hacia HODLC",
           "approveToRedeem": "están aprobados para canjear"
         }
-      }
+      },
+      "claim": "Claim"
     },
     "notify": {
       "nothing": "Nothing happens :)",

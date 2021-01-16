@@ -58,7 +58,8 @@
           "btn2": "Vers HODLC",
           "approveToRedeem": "Sont approuvés pour convertir"
         }
-      }
+      },
+      "claim": "Claim"
     },
     "notify": {
       "nothing": "Nothing happens :)",

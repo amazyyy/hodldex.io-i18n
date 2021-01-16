@@ -58,7 +58,8 @@
           "btn2": "To HODLC",
           "approveToRedeem": "are approved to redeem"
         }
-      }
+      },
+      "claim": "Claim"
     },
     "notify": {
       "nothing": "Nothing happens :)",

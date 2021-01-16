@@ -58,7 +58,8 @@
           "btn2": "兑换成 HODLC",
           "approveToRedeem": "以授权被兑换"
         }
-      }
+      },
+      "claim": "Claim"
     },
     "notify": {
       "nothing": "Nothing happens :)",

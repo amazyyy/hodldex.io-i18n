@@ -55,7 +55,8 @@
           "btn2": "An HODLC",
           "approveToRedeem": "zur Einlösung genehmigt"
         }
-      }
+      },
+      "claim": "Claim"
     },
     "notify": {
       "nothing": "Nothing happens :)",
