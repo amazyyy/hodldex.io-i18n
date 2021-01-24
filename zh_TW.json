@@ -2,7 +2,7 @@
   "testing": "測試試試試試試",
   "system": {
     "ethereum": {
-      "confirmed" : "乙太坊確認!",
+      "confirmed": "乙太坊確認!",
       "failed": "交易取消"
     }
   },
@@ -125,7 +125,7 @@
         "action": "類型"
       },
       "content": {
-        "type" : {
+        "type": {
           "buy HODLC": "買 HODLC",
           "sell HODLC": "賣 HODLC",
           "To HODLC": "兌換成 HODLC",
@@ -227,13 +227,13 @@
       "form": {
         "inputAmount": {
           "1": "If I deposit",
-          "options": {
+          "2": "for",
+          "3": "months",
+          "1-options": {
             "daily": "daily",
             "weekly": "weekly",
             "monthly": "monthly"
-          },
-          "2": "for",
-          "3": "months"
+          }
         },
         "aboutTransactionPerDay": {
           "1": "and I assume",
@@ -277,7 +277,7 @@
   },
   "joinUs": {
     "title": "關注我們",
-    "content" : {
+    "content": {
       "title": "官方社群",
       "close": "關閉"
     }

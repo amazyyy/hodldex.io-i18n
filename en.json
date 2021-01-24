@@ -239,7 +239,7 @@
       "form": {
         "inputAmount": {
           "1": "If I deposit",
-          "options": {
+          "1-options": {
             "daily": "daily",
             "weekly": "weekly",
             "monthly": "monthly"
@@ -273,7 +273,7 @@
         "references": "References: there are about <b>{{avgTransaction}}</b> transactions per day in the last <b>{{avgDay}}</b> days",
         "cashOutFrquency": {
           "1": "I plan to cash out",
-          "options": {
+          "1-options": {
             "daily": "daily",
             "weekly": "weekly",
             "monthly": "monthly"

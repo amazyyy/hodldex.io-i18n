@@ -2,7 +2,7 @@
   "testing": "setttiinnnnngggg",
   "system": {
     "ethereum": {
-      "confirmed" : "Ethereum confirmed!",
+      "confirmed": "Ethereum confirmed!",
       "failed": "Transaction canceled!"
     }
   },
@@ -102,9 +102,7 @@
         "estimated": "estimated"
       }
     },
-    "eventlist" : {
-      
-    }
+    "eventlist": {}
   },
   "eventList": {
     "title": {
@@ -128,7 +126,7 @@
         "action": "Action"
       },
       "content": {
-        "type" : {
+        "type": {
           "buy HODLC": "buy HODLC",
           "sell HODLC": "sell HODLC",
           "To HODLC": "To HODLC",
@@ -232,13 +230,13 @@
       "form": {
         "inputAmount": {
           "1": "If I deposit",
-          "options": {
+          "2": "for",
+          "3": "months",
+          "1-options": {
             "daily": "daily",
             "weekly": "weekly",
             "monthly": "monthly"
-          },
-          "2": "for",
-          "3": "months"
+          }
         },
         "aboutTransactionPerDay": {
           "1": "and I assume",
@@ -282,7 +280,7 @@
   },
   "joinUs": {
     "title": "Join Us",
-    "content" : {
+    "content": {
       "title": "Official Social Media Groups",
       "close": "Close"
     }
