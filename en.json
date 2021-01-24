@@ -103,7 +103,7 @@
       }
     },
     "eventlist" : {
-      
+
     }
   },
   "eventList": {
@@ -129,13 +129,20 @@
       },
       "content": {
         "type" : {
-          "buy HODLC": "buy HODLC",
-          "sell HODLC": "sell HODLC",
+          "SellOrderFilled": "Buy",
+          "BuyOrderFilled": "Sell",
           "To HODLC": "To HODLC",
           "To HODLT": "To HODLT",
-          "deposit": "deposit",
-          "withdraw": "withdraw",
-          "approve": "approve"
+          "deposit": "Deposit",
+          "withdraw": "Withdraw",
+          "approve": "Approve",
+          "SellOrderRefunded": "Sell Order Refunded",
+          "BuyOrderRefunded": "Buy Order Refunded",
+          "SellOrderOpened": "Sell Order Opened",
+          "BuyOrderOpened": "Buy Order Opened",
+          "BuyFromReserve": "Buy From Reserve",
+          "SellOrderCancelled": "Sell Order Cancelled",
+          "BuyOrderCancelled": "Buy Order Cancelled"
         }
       }
     }
@@ -167,8 +174,8 @@
     "orderBook": {
       "global": "Global Orders",
       "myOrders": "My Orders",
-      "singleOrder": "Total {{amount}} {{units}} in the queue",
-      "multiOrders": "Total {{amount}} {{units}}s in the queue",
+      "singleOrder": "Total {{amount}} {{units}}",
+      "multiOrders": "Total {{amount}} {{units}}s",
       "title": {
         "orderId": "Order Id",
         "price": "Price",
