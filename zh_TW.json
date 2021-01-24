@@ -126,13 +126,20 @@
       },
       "content": {
         "type": {
-          "buy HODLC": "買 HODLC",
-          "sell HODLC": "賣 HODLC",
+          "SellOrderFilled": "Buy",
+          "BuyOrderFilled": "Sell",
           "To HODLC": "兌換成 HODLC",
           "To HODLT": "兌換成 HODLT",
           "deposit": "存入",
           "withdraw": "提領",
-          "approve": "授權"
+          "approve": "授權",
+          "SellOrderRefunded": "Sell Order Refunded",
+          "BuyOrderRefunded": "Buy Order Refunded",
+          "SellOrderOpened": "Sell Order Opened",
+          "BuyOrderOpened": "Buy Order Opened",
+          "BuyFromReserve": "Buy From Reserve",
+          "SellOrderCancelled": "Sell Order Cancelled",
+          "BuyOrderCancelled": "Buy Order Cancelled"
         }
       }
     }

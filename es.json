@@ -126,13 +126,20 @@
       },
       "content": {
         "type": {
-          "buy HODLC": "buy HODLC",
-          "sell HODLC": "sell HODLC",
+          "SellOrderFilled": "Buy",
+          "BuyOrderFilled": "Sell",
           "To HODLC": "To HODLC",
           "To HODLT": "To HODLT",
           "deposit": "deposit",
           "withdraw": "withdraw",
-          "approve": "approve"
+          "approve": "approve",
+          "SellOrderRefunded": "Sell Order Refunded",
+          "BuyOrderRefunded": "Buy Order Refunded",
+          "SellOrderOpened": "Sell Order Opened",
+          "BuyOrderOpened": "Buy Order Opened",
+          "BuyFromReserve": "Buy From Reserve",
+          "SellOrderCancelled": "Sell Order Cancelled",
+          "BuyOrderCancelled": "Buy Order Cancelled"
         }
       }
     }
