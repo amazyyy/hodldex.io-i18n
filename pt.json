@@ -40,7 +40,8 @@
   },
   "wallet-connect": {
     "choose": "Choose your wallet",
-    "btn": "Connect to a wallet"
+    "btn": "Connect to a wallet",
+    "mobile-btn": "Connect wallet"
   },
   "wallet": {
     "balances": {

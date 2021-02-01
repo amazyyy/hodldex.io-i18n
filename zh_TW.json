@@ -40,7 +40,8 @@
   },
   "wallet-connect": {
     "choose": "選擇你的錢包",
-    "btn": "連結錢包"
+    "btn": "連結錢包",
+    "mobile-btn": "Connect wallet"
   },
   "wallet": {
     "balances": {
