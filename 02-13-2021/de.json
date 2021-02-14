@@ -1,0 +1,281 @@
+{
+  "testing": "setttiinnnnngggg",
+  "system": {
+    "ethereum": {
+      "confirmed" : "Ethereum bestätigt!",
+      "failed": "Transaktion abgebrochen!"
+    }
+  },
+  "navigator": {
+    "wallet": "Brieftasche",
+    "trade": "Handel",
+    "explorer": "Forscher",
+    "settings": "Einstellungen",
+    "calculator": "Taschenrechner",
+    "joinUs": "Begleiten Sie uns",
+    "footer": {
+      "website": "Webseite",
+      "termsOfUse": "Nutzungsbedingungen",
+      "whitepaper": "Weißes Papier"
+    }
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "items": {
+      "language": "Sprache"
+    }
+  },
+  "marketInfo": {
+    "title": "Markt-Info",
+    "items": {
+      "reserve": "Vorrat",
+      "marketcap": "Marktwert",
+      "circulation": "Umlauf",
+      "hodlcPrice": "HODLC Preis"
+    }
+  },
+  "wallet-connect": {
+    "choose": "Wählen Sie Ihre Brieftasche",
+    "btn": "Verbinden Sie sich mit einer Brieftasche"
+  },
+  "wallet": {
+    "balances": {
+      "title": "Kontostand",
+      "card": {
+        "eth": {
+          "btn1": "Einzahlung",
+          "btn2": "Auszahlung"
+        },
+        "hodlc": {
+          "btn1": "Handel",
+          "btn2": "An HODLT"
+        },
+        "hodlt": {
+          "btn1": "Freigeben",
+          "btn2": "An HODLC",
+          "approveToRedeem": "zur Einlösung genehmigt"
+        }
+      },
+      "claim": "Claim"
+    },
+    "notify": {
+      "nothing": "Nichts passiert :)",
+      "notConnected": "Metamask / Mist ist nicht verbunden. Versuchen Sie es erneut.",
+      "depositeEthMax": "Sie können höchstens {{limit}} {{type}} einzahlen.",
+      "withdrawEthMax": "Sie können höchstens {{eth}} {{type}} zurückziehen.",
+      "toHodltMax": "Sie können höchstens {{holdc}} {{type}} an HODLT übertragen.",
+      "toHodlcMax": "Sie können höchstens {{redeemPower}} {{type}} an HODLC übertragen.",
+      "approveMax": "Sie können höchstens {{limit}} {{type}} genehmigen.",
+      "toHodlc": "Sie konvertieren {{Betrag}} HODLT in {{hodlcAmount}} HODLC und warten auf die Bestätigung durch Ethereum.",
+      "toHodlt": "Sie konvertieren {{hodlcAmount}} HODLC in {{amount}} HODLT und warten auf die Bestätigung durch Ethereum.",
+      "otherActions": {
+        "template": "Sie warten auf die Bestätigung von Ethereum.",
+        "action": {
+          "deposit": "Anzahlung",
+          "withdraw": "Abheben",
+          "approve": "Genehmigen"
+        },
+        "units": {
+          "eth": "ETH",
+          "hodlt": "HODLT"
+        }
+      }
+    },
+    "modal": {
+      "max": "Max",
+      "title": {
+        "Deposit": "Anzahlung",
+        "Withdraw": "Abheben",
+        "To HODLT": "Zu HODLT",
+        "To HODLC": "Zu HODLC",
+        "Approve": "Genehmigen"
+      },
+      "btn": {
+        "cancel": "Stornieren",
+        "yes": "Ja"
+      },
+      "content": {
+        "amount": "Menge",
+        "estimated": "geschätzt"
+      }
+    }
+  },
+  "eventList": {
+    "title": {
+      "my": "Meine Vorgänge ({{number}} events)",
+      "global": "Globale Vorgänge ({{number}} events)"
+    },
+    "lengthOptions": {
+      "1hour": "nach 1 Stunde",
+      "6hour": "nach 6 Stunden",
+      "24hour": "nach 1 Tag",
+      "72hour": "nach 3 Tagen",
+      "168hour": "nach 1 Woche",
+      "all": "Alle"
+    },
+    "list": {
+      "noEvents": "Keine Vorgänge",
+      "header": {
+        "txnHash": "Txn Hash",
+        "address": "Addresse",
+        "block": "Block",
+        "action": "Aktion"
+      },
+      "content": {
+        "type" : {
+          "buy HODLC": "buy HODLC",
+          "sell HODLC": "sell HODLC",
+          "To HODLC": "To HODLC",
+          "To HODLT": "To HODLT",
+          "deposit": "Anzahlung",
+          "withdraw": "Abheben",
+          "approve": "Genehmigen"
+        }
+      }
+    }
+  },
+  "trade": {
+    "maximumBtn": "max",
+    "minimumBtn": "min",
+    "info": {
+      "balances": "Ihre Bilanz"
+    },
+    "switcher": {
+      "buy": "Kaufen",
+      "sell": "Verkaufen"
+    },
+    "promptToConnect": {
+      "connect": "Verbinden mit",
+      "startTrade": "Handel starten"
+    },
+    "form": {
+      "placeholder": "Einen Wert hinzufügen...",
+      "equivalent": "Äquivalent",
+      "estimate": "geschätzt",
+      "action": {
+        "buy": "Kaufen",
+        "sell": "Verkaufen"
+      }
+    },
+    "orderBook": {
+      "global": "Globale Aufträge",
+      "myOrders": "Meine Aufträge",
+      "singleOrder": "Total {{amount}} {{units}} in der Warteschlange",
+      "multiOrders": "Total {{amount}} {{units}} in der Warteschlange",
+      "title": {
+        "orderId": "Auftrags-ID",
+        "price": "Preis",
+        "buy": "Käufer",
+        "sell": "Verkäufer"
+      },
+      "noEvent": "Keine Aufträge",
+      "cancel": "abbrechen"
+    },
+    "alert": "Metamask oder Mist ist nicht installiert. Sie sollten erwägen MetaMask oder Mist auszuprobieren!",
+    "notify": {
+      "cancel": "Auftrag stornieren für {{id}}, warten auf die Bestätigung von Ethereum.",
+      "sellMin": "Verkaufe mindestens {{min}} HODLC, zum aktuellen Kurs.",
+      "sellMax": "Verkaufe höchstens {{max}} HODLC, zum aktuellen Kurs.",
+      "successSell": "Sie verkaufen {{hodlc}} HODLC, warten auf die Bestätigung von Ethereum.",
+      "buyMin": "Kaufe mindestens {{min}} ETH, zum aktuellen Kurs.",
+      "buyMax": "Kaufe höchstens {{max}} ETH, zum aktuellen Kurs.",
+      "successBuy": "Sie kaufen {{hodlc}} HODLC, warten auf die Bestätigung von Ethereum."
+    },
+    "modal": {
+      "header": "Auftrag stornieren",
+      "content": "Sind Sie sicher, dass Sie den Auftrag stornieren wollen?",
+      "no": "Nein",
+      "cancel": "Abbrechen mit"
+    }
+  },
+  "calculator": {
+    "title": "Taschenrechner",
+    "disclaimer": {
+      "title": "Haftungsausschluss des Rechners",
+      "cancel": "Stornieren",
+      "agree": "Genau"
+    },
+    "mode": {
+      "simple": "Einfacher Modus",
+      "resurring": "Wiederkehrender Modus",
+      "cashOut": "Auszahlungsmodus"
+    },
+    "simple": {
+      "form": {
+        "inputAmount": {
+          "1": "Wenn ich halte",
+          "2": "zum",
+          "3": "tage"
+        },
+        "aboutTransactionPerDay": {
+          "1": "und ich nehme an",
+          "2": "Transaktionen finden jeden Tag statt."
+        },
+        "references": "Referenzen: In den letzten <b> {{avgDay}} </ b> Tagen gibt es ungefähr <b> {{avgTransaction}} </ b> Transaktionen pro Tag"
+      },
+      "summary": {
+        "endAmount": "Der Wert wird am Ende des Zeitraums auf <b> {{result}} USD </ b> geschätzt.",
+        "endGrowth": "Das potenzielle Gesamtwachstum beträgt am Ende des Zeitraums <b> {{result}} USD </ b>.",
+        "endPercentageIncrease": "Der potenzielle prozentuale Anstieg beträgt am Ende des Zeitraums <b> {{Ergebnis}}% </ b>."
+      }
+    },
+    "recurring": {
+      "form": {
+        "inputAmount": {
+          "1": "Wenn ich einzahle",
+          "options": {
+            "daily": "Täglich",
+            "weekly": "wöchentlich",
+            "monthly": "monatlich"
+          },
+          "2": "Zum",
+          "3": "Monate"
+        },
+        "aboutTransactionPerDay": {
+          "1": "und ich nehme an",
+          "2": "Transaktionen finden jeden Tag statt."
+        },
+        "references": "Referenzen: In den letzten <b> {{avgDay}} </ b> Tagen gibt es ungefähr <b> {{avgTransaction}} </ b> Transaktionen pro Tag"
+      },
+      "summary": {
+        "endAmount": "Der Wert wird am Ende des Zeitraums auf <b> {{result}} USD </ b> geschätzt.",
+        "endGrowth": "Das potenzielle Gesamtwachstum beträgt am Ende des Zeitraums <b> {{result}} USD </ b>.",
+        "endPercentageIncrease": "Der potenzielle prozentuale Anstieg beträgt am Ende des Zeitraums <b> {{result}}% </ b>."
+      }
+    },
+    "cashOut": {
+      "form": {
+        "inputAmount": {
+          "1": "Wenn ich halte",
+          "2": "zum",
+          "3": "Tage"
+        },
+        "aboutTransactionPerDay": {
+          "1": "und ich nehme an",
+          "2": "Transaktionen finden jeden Tag statt."
+        },
+        "references": "Referenzen: In den letzten <b> {{avgDay}} </ b> Tagen gibt es ungefähr <b> {{avgTransaction}} </ b> Transaktionen pro Tag",
+        "cashOutFrquency": {
+          "1": "Ich habe vor, mich auszahlen zu lassen",
+          "options": {
+            "daily": "Täglich",
+            "weekly": "Wöchentlich",
+            "monthly": "Monats"
+          }
+        }
+      },
+      "summary": {
+        "canCashOutEvg": "Ich kann durchschnittlich <b> {{result}} USD </ b> {{cashOutPeriod}} auszahlen",
+        "endCashOutAmount": "Ich werde insgesamt <b> {{result}} USD </ b> auszahlen und mein HODLC-Wert bleibt am Ende des Zeitraums gleich.",
+        "endHODLCAmount": "Ich werde am Ende des Zeitraums <b> {{result}} </ b> HODLC halten."
+      }
+    }
+  },
+  "joinUs": {
+    "title": "Begleiten Sie uns",
+    "content" : {
+      "title": "Offizielle Social Media Gruppen",
+      "close": "Close"
+    }
+  }
+}

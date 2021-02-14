@@ -187,12 +187,14 @@
     "alert": "你沒有安裝 Metamask 錢包. 建議下載 Metamask 擴充",
     "notify": {
       "cancel": "您取消訂單{{id}},請等待 Ethereum 的確認。",
+      "notEnoughEth": "You only have {{ethAmount}} ETH, go to wallet page and deposit enough ETH.",
       "sellMin": "以當前價格，賣出至少{{min}}HODLC。",
       "sellMax": "以當前價格，賣出至多{{max}}HODLC。",
       "successSell": "您賣出{{hodlc}} HODLC, 請等待 Ethereum 的確認。",
       "buyMin": "以當前價格，用至少{{min}} ETH買入。",
       "buyMax": "以當前價格，用至多{{max}} ETH買入。",
-      "successBuy": "您買入{{hodlc}} HODLC, 請等待 Ethereum 的確認。"
+      "successBuy": "您買入{{hodlc}} HODLC, 請等待 Ethereum 的確認。",
+      "cannotRemoveDust": "This is the origin dust, you cannot performance transformation to make it disappear."
     },
     "cancelModal": {
       "header": "取消訂單",

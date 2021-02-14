@@ -193,7 +193,8 @@
       "successSell": "Vous vendez {{hodlc}} HODLC, en attente de confirmation d'Ethereum.",
       "buyMin": "Achetez avec au moins {{min}} ETH, au taux actuel.",
       "buyMax": "Achetez avec au plus {{max}} ETH, au taux actuel.",
-      "successBuy": "Vous Achetez {{hodlc}} HODLC, en attente de confirmation d'Ethereum."
+      "successBuy": "Vous Achetez {{hodlc}} HODLC, en attente de confirmation d'Ethereum.",
+      "cannotRemoveDust": "This is the origin dust, you cannot performance transformation to make it disappear."
     },
     "modal": {
       "header": "Annuler la Commande",
