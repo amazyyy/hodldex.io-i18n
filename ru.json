@@ -15,6 +15,7 @@
     "explorer": "Исследователь",
     "settings": "Yстановка",
     "calculator": "Калькулятор",
+    "graph": "Graph",
     "joinUs": "Присоединяйтесь к нам",
     "footer": {
       "website": "Интернет сайт",
@@ -102,8 +103,7 @@
         "amount": "количество",
         "estimated": "предполагаемый"
       }
-    },
-    "eventlist": {}
+    }
   },
   "eventList": {
     "title": {
