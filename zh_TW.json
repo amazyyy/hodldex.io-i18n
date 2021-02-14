@@ -2,7 +2,7 @@
   "testing": "setttiinnnnngggg",
   "system": {
     "ethereum": {
-      "confirmed" : "Ethereum確認！",
+      "confirmed": "Ethereum確認！",
       "failed": "交易取消！"
     }
   },
@@ -39,7 +39,8 @@
   },
   "wallet-connect": {
     "choose": "選擇您的錢包",
-    "btn": "連結到錢包"
+    "btn": "連結到錢包",
+    "mobile-btn": "Connect wallet"
   },
   "wallet": {
     "balances": {
@@ -67,7 +68,7 @@
       "depositeEthMax": "您最多可以存入 {{limit}} {{type}}。",
       "withdrawEthMax": "您最多可以提取 {{eth}} {{type}}。",
       "toHodltMax": "您最多可以轉帳 {{hodlc}} {{type}} 到 HODLT。",
-      "toHodlcMax"您最多可以轉帳 {{redeemPower}} {{type}} 到 HODLC。",
+      "toHodlcMax": "您最多可以轉帳 {{redeemPower}} {{type}} 到 HODLC。",
       "approveMax": "您最多可以授權 {{limit}} {{type}}。",
       "toHodlc": "您轉換 {{amount}} HODLT 到 {{hodlcAmount}} HODLC, 正在等待Ethereum的確認。",
       "toHodlt": "您轉換 {{hodlcAmount}} HODLC 到 {{amount}} HODLT, 正在等待Ethereum的確認。",
@@ -125,14 +126,21 @@
         "action": "操作"
       },
       "content": {
-        "type" : {
-          "buy HODLC": "買入HODLC",
-          "sell HODLC": "賣出HODLC",
+        "type": {
+          "SellOrderFilled": "Buy",
+          "BuyOrderFilled": "Sell",
           "To HODLC": "換成HODLC",
           "To HODLT": "換成HODLT",
           "deposit": "存入",
           "withdraw": "提取",
-          "approve": "授權"
+          "approve": "授權",
+          "SellOrderRefunded": "Sell Order Refunded",
+          "BuyOrderRefunded": "Buy Order Refunded",
+          "SellOrderOpened": "Sell Order Opened",
+          "BuyOrderOpened": "Buy Order Opened",
+          "BuyFromReserve": "Buy From Reserve",
+          "SellOrderCancelled": "Sell Order Cancelled",
+          "BuyOrderCancelled": "Buy Order Cancelled"
         }
       }
     }
@@ -187,7 +195,7 @@
       "successBuy": "您買入 {{hodlc}} HODLC，正在等待Ethereum的確認。"
     },
     "modal": {
-      "header" : "取消訂單",
+      "header": "取消訂單",
       "content": "您確認取消訂單嗎？",
       "no": "否",
       "cancel": "取消"
@@ -228,13 +236,13 @@
       "form": {
         "inputAmount": {
           "1": "如果我存入",
+          "2": "持續",
+          "3": "月",
           "options": {
             "daily": "每天",
             "weekly": "每週",
             "monthly": "每月"
-          },
-          "2": "持續",
-          "3": "月"
+          }
         },
         "aboutTransactionPerDay": {
           "1": "以及我假設",
@@ -278,7 +286,7 @@
   },
   "joinUs": {
     "title": "加入我們",
-    "content" : {
+    "content": {
       "title": "官方社交媒體團隊",
       "close": "close關閉"
     }

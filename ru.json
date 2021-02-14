@@ -39,7 +39,8 @@
   },
   "wallet-connect": {
     "choose": "Выбери свой кошелек",
-    "btn": "Подключиться к кошельку"
+    "btn": "Подключиться к кошельку",
+    "mobile-btn": "Connect wallet"
   },
   "wallet": {
     "balances": {

@@ -2,7 +2,7 @@
   "testing": "setttiinnnnngggg",
   "system": {
     "ethereum": {
-      "confirmed" : "Ethereum确认！",
+      "confirmed": "Ethereum确认！",
       "failed": "交易取消！"
     }
   },
@@ -39,7 +39,8 @@
   },
   "wallet-connect": {
     "choose": "选择您的钱包",
-    "btn": "连结到钱包"
+    "btn": "连结到钱包",
+    "mobile-btn": "Connect wallet"
   },
   "wallet": {
     "balances": {
@@ -125,14 +126,21 @@
         "action": "操作"
       },
       "content": {
-        "type" : {
-          "buy HODLC": "买入HODLC",
-          "sell HODLC": "卖出HODLC",
+        "type": {
+          "SellOrderFilled": "Buy",
+          "BuyOrderFilled": "Sell",
           "To HODLC": "换成HODLC",
           "To HODLT": "换成HODL",
           "deposit": "存入",
           "withdraw": "提取",
-          "approve": "授权"
+          "approve": "授权",
+          "SellOrderRefunded": "Sell Order Refunded",
+          "BuyOrderRefunded": "Buy Order Refunded",
+          "SellOrderOpened": "Sell Order Opened",
+          "BuyOrderOpened": "Buy Order Opened",
+          "BuyFromReserve": "Buy From Reserve",
+          "SellOrderCancelled": "Sell Order Cancelled",
+          "BuyOrderCancelled": "Buy Order Cancelled"
         }
       }
     }
@@ -184,7 +192,7 @@
       "successSell": "您卖出 {{hodlc}} HODLC, 正在等待Ethereum的确认。",
       "buyMin": "买入至少 {{min}} ETH，以当前价格。",
       "buyMax": "买入最多 {{max}} ETH，以当前价格。",
-      "successBuy": "您买入 {{hodlc}} HODLC，正在等待Ethereum的确认。"
+      "successBuy": "您买入 {{hodlc}} HODLC，正在等待Ethereum的确认。",
       "cannotRemoveDust": "这是origin dust，您无法执行转换令其消失。"
     },
     "modal": {
@@ -229,13 +237,13 @@
       "form": {
         "inputAmount": {
           "1": "如果我存入",
+          "2": "持续",
+          "3": "月",
           "options": {
             "daily": "每天",
             "weekly": "每周",
             "monthly": "每月"
-          },
-          "2": "持续",
-          "3": "月"
+          }
         },
         "aboutTransactionPerDay": {
           "1": "以及我假设",
@@ -279,7 +287,7 @@
   },
   "joinUs": {
     "title": "加入我们",
-    "content" : {
+    "content": {
       "title": "官方社交媒体团队",
       "close": "Close"
     }

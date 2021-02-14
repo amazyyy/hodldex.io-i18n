@@ -39,7 +39,8 @@
   },
   "wallet-connect": {
     "choose": "Choisir votre portefeuille",
-    "btn": "Se connecter à un portefeuille"
+    "btn": "Se connecter à un portefeuille",
+    "mobile-btn": "Connect wallet"
   },
   "wallet": {
     "balances": {

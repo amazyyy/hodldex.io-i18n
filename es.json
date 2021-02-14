@@ -39,7 +39,8 @@
   },
   "wallet-connect": {
     "choose": "Elige tu billetera",
-    "btn": "Conectarse a una billetera"
+    "btn": "Conectarse a una billetera",
+    "mobile-btn": "Connect wallet"
   },
   "wallet": {
     "balances": {
