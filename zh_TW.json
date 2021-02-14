@@ -1,9 +1,9 @@
 {
-  "testing": "測試試試試試試",
+  "testing": "setttiinnnnngggg",
   "system": {
     "ethereum": {
-      "confirmed": "乙太坊確認!",
-      "failed": "交易取消"
+      "confirmed" : "Ethereum確認！",
+      "failed": "交易取消！"
     }
   },
   "bottom": {
@@ -12,19 +12,18 @@
   "navigator": {
     "wallet": "錢包",
     "trade": "交易",
-    "explorer": "探索",
-    "settings": "設定",
-    "calculator": "獲利模擬",
-    "graph": "Graph",
-    "joinUs": "關注我們",
+    "explorer": "探险者",
+    "settings": "設置",
+    "calculator": "計算器",
+    "joinUs": "加入我們",
     "footer": {
-      "website": "官方網站",
-      "termsOfUse": "使用條款聲明",
+      "website": "網站",
+      "termsOfUse": "使用條款",
       "whitepaper": "白皮書"
     }
   },
   "settings": {
-    "title": "設定",
+    "title": "設置",
     "items": {
       "language": "語言"
     }
@@ -32,16 +31,15 @@
   "marketInfo": {
     "title": "市場資訊",
     "items": {
-      "reserve": "儲備量",
+      "reserve": "儲備",
       "marketcap": "總市值",
       "circulation": "流通量",
       "hodlcPrice": "HODLC 價格"
     }
   },
   "wallet-connect": {
-    "choose": "選擇你的錢包",
-    "btn": "連結錢包",
-    "mobile-btn": "Connect wallet"
+    "choose": "選擇您的錢包",
+    "btn": "連結到錢包"
   },
   "wallet": {
     "balances": {
@@ -49,35 +47,35 @@
       "card": {
         "eth": {
           "btn1": "存入",
-          "btn2": "提領"
+          "btn2": "提取"
         },
         "hodlc": {
           "btn1": "交易",
-          "btn2": "兌換成 HODLT"
+          "btn2": "換成HODLT"
         },
         "hodlt": {
           "btn1": "授權",
-          "btn2": "兌換成 HODLC",
-          "approveToRedeem": "已授權被兌換"
+          "btn2": "換成HODLC",
+          "approveToRedeem": "被批准贖回"
         }
       },
-      "claim": "領取"
+      "claim": "申請領取"
     },
     "notify": {
-      "nothing": "此動作無效果 :)",
-      "notConnected": "沒有連結上 Metamask/Mist，請再試一次",
-      "depositeEthMax": "你只能最多存入 {{limit}} {{type}}",
-      "withdrawEthMax": "你只能最多提領 {{eth}} {{type}}",
-      "toHodltMax": "你只能最多兌換 {{hodlc}} {{type}} 成 HODLT",
-      "toHodlcMax": "你只能最多兌換 {{redeemPower}} {{type}} 成 HODLC.",
-      "approveMax": "你只能最多授權 {{limit}} {{type}}.",
-      "toHodlc": "您兌換了 {{amount}} HODLT 成 {{hodlcAmount}} HODLC, 等待乙太坊確認",
-      "toHodlt": "您兌換了 {{hodlcAmount}} HODLC 成 {{amount}} HODLT, 等待乙太坊確認",
+      "nothing": "没有任何事件發生：）",
+      "notConnected": "Metamask/Mist未连接，请重新尝试。",
+      "depositeEthMax": "您最多可以存入 {{limit}} {{type}}。",
+      "withdrawEthMax": "您最多可以提取 {{eth}} {{type}}。",
+      "toHodltMax": "您最多可以轉帳 {{hodlc}} {{type}} 到 HODLT。",
+      "toHodlcMax"您最多可以轉帳 {{redeemPower}} {{type}} 到 HODLC。",
+      "approveMax": "您最多可以授權 {{limit}} {{type}}。",
+      "toHodlc": "您轉換 {{amount}} HODLT 到 {{hodlcAmount}} HODLC, 正在等待Ethereum的確認。",
+      "toHodlt": "您轉換 {{hodlcAmount}} HODLC 到 {{amount}} HODLT, 正在等待Ethereum的確認。",
       "otherActions": {
-        "template": "您 {{action}} {{amount}} {{units}}, 等待乙太坊確認",
+        "template": "您 {{action}} {{amount}} {{units}}, 正在等待Ethereum的確認。",
         "action": {
           "deposit": "存入",
-          "withdraw": "提領",
+          "withdraw": "提取",
           "approve": "授權"
         },
         "units": {
@@ -87,210 +85,202 @@
       }
     },
     "modal": {
-      "max": "Max",
+      "max": "最多",
       "title": {
         "Deposit": "存入",
-        "Withdraw": "提領",
-        "To HODLT": "兌換成 HODLT",
-        "To HODLC": "兌換成 HODLC",
+        "Withdraw": "提取",
+        "To HODLT": "到HODLT",
+        "To HODLC": "到HODLC",
         "Approve": "授權"
       },
       "btn": {
         "cancel": "取消",
-        "yes": "確認"
+        "yes": "是"
       },
       "content": {
-        "amount": "數量",
-        "estimated": "大約為"
+        "amount": "金額",
+        "estimated": "估計"
       }
     }
   },
   "eventList": {
     "title": {
-      "my": "我的交易活動({{number}}活動)",
-      "global": "全部交易活動({{number}}活動)"
+      "my": "我的活動 ({{number}} events)",
+      "global": "全球活動 ({{number}} events)"
     },
     "lengthOptions": {
-      "1hour": "過去1小時内",
-      "6hour": "過去6小時内",
+      "1hour": "過去1小時內",
+      "6hour": "過去6小時內",
       "24hour": "過去1天内",
       "72hour": "過去3天内",
-      "168hour": "過去1週内",
-      "all": "全部紀錄"
+      "168hour": "過去1周内",
+      "all": "全部時間內"
     },
     "list": {
-      "noEvents": "尚無交易活動",
+      "noEvents": "尚無活動",
       "header": {
-        "txnHash": "交易哈希值",
-        "address": "用戶地址",
+        "txnHash": "Txn Hash",
+        "address": "地址",
         "block": "區塊",
-        "action": "類型"
+        "action": "操作"
       },
       "content": {
-        "type": {
-          "SellOrderFilled": "Buy",
-          "BuyOrderFilled": "Sell",
-          "To HODLC": "兌換成 HODLC",
-          "To HODLT": "兌換成 HODLT",
+        "type" : {
+          "buy HODLC": "買入HODLC",
+          "sell HODLC": "賣出HODLC",
+          "To HODLC": "換成HODLC",
+          "To HODLT": "換成HODLT",
           "deposit": "存入",
-          "withdraw": "提領",
-          "approve": "授權",
-          "SellOrderRefunded": "Sell Order Refunded",
-          "BuyOrderRefunded": "Buy Order Refunded",
-          "SellOrderOpened": "Sell Order Opened",
-          "BuyOrderOpened": "Buy Order Opened",
-          "BuyFromReserve": "Buy From Reserve",
-          "SellOrderCancelled": "Sell Order Cancelled",
-          "BuyOrderCancelled": "Buy Order Cancelled"
+          "withdraw": "提取",
+          "approve": "授權"
         }
       }
     }
   },
   "trade": {
-    "maximumBtn": "max",
-    "minimumBtn": "min",
+    "maximumBtn": "最多",
+    "minimumBtn": "最少",
     "info": {
-      "balances": "您的總資產"
+      "balances": "您的餘額"
     },
     "switcher": {
-      "buy": "買",
-      "sell": "賣"
+      "buy": "買入",
+      "sell": "賣出"
     },
     "promptToConnect": {
-      "connect": "連結",
-      "startTrade": " 開始交易"
+      "connect": "連接",
+      "startTrade": "開始交易"
     },
     "form": {
-      "placeholder": "Add an value...",
+      "placeholder": "增值",
       "equivalent": "等值",
       "estimate": "估值",
       "action": {
-        "buy": "買",
-        "sell": "賣",
+        "buy": "買入",
+        "sell": "賣出",
         "deposit": "存入"
       }
     },
     "orderBook": {
-      "global": "全球市場",
-      "myOrders": "我的單",
-      "singleOrder": "總共 {{amount}} {{units}}",
-      "multiOrders": "總共 {{amount}} {{units}}s",
+      "global": "全球訂單",
+      "myOrders": "我的訂單",
+      "singleOrder": "總共有 {{amount}} {{units}} 在隊列中",
+      "multiOrders": "總共有 {{amount}} {{units}}s 在隊列中",
       "title": {
-        "orderId": "序號",
+        "orderId": "訂單號",
         "price": "價格",
         "buy": "買家",
         "sell": "賣家"
       },
-      "noEvent": "沒有交易活動",
+      "noEvent": "尚無活動",
       "cancel": "取消"
     },
-    "alert": "你沒有安裝 Metamask 錢包. 建議下載 Metamask 擴充",
+    "alert": "未安裝Metamask或者Mist。請您考慮使用MetaMask或者Mist！",
     "notify": {
-      "cancel": "您取消訂單{{id}},請等待 Ethereum 的確認。",
-      "notEnoughEth": "You only have {{ethAmount}} ETH, go to wallet page and deposit enough ETH.",
-      "sellMin": "以當前價格，賣出至少{{min}}HODLC。",
-      "sellMax": "以當前價格，賣出至多{{max}}HODLC。",
-      "successSell": "您賣出{{hodlc}} HODLC, 請等待 Ethereum 的確認。",
-      "buyMin": "以當前價格，用至少{{min}} ETH買入。",
-      "buyMax": "以當前價格，用至多{{max}} ETH買入。",
-      "successBuy": "您買入{{hodlc}} HODLC, 請等待 Ethereum 的確認。",
-      "cannotRemoveDust": "This is the origin dust, you cannot performance transformation to make it disappear."
+      "cancel": "取消訂單 {{id}}, 正在等待Ethereum的確認。",
+      "notEnoughEth": "您只有 {{ethAmount}} ETH, 請移步錢包頁面並存入足夠的ETH。",
+      "sellMin": "賣出至少 {{min}} HODLC，以當前價格。",
+      "sellMax": "賣出最多 {{max}} HODLC，以當前價格。",
+      "successSell": "您賣出 {{hodlc}} HODLC, 正在等待Ethereum的確認。",
+      "buyMin": "買入至少 {{min}} ETH，以當前價格。",
+      "buyMax": "買入最多 {{max}} ETH，以當前價格。",
+      "successBuy": "您買入 {{hodlc}} HODLC，正在等待Ethereum的確認。"
     },
-    "cancelModal": {
-      "header": "取消訂單",
-      "content": "你確定要取消這個訂單嗎？",
-      "no": "稍後",
-      "cancel": "確定"
+    "modal": {
+      "header" : "取消訂單",
+      "content": "您確認取消訂單嗎？",
+      "no": "否",
+      "cancel": "取消"
     }
   },
   "calculator": {
-    "title": "Calculator",
+    "title": "計算器",
     "disclaimer": {
-      "title": "Calculator Disclaimer",
-      "cancel": "Cancel",
-      "agree": "I agree"
+      "title": "計算器免責聲明",
+      "cancel": "取消",
+      "agree": "我同意"
     },
     "mode": {
-      "simple": "Simple Mode",
-      "resurring": "Recurring Mode",
-      "cashOut": "Cash Out Mode"
+      "simple": "簡單模式",
+      "recurring": "循環模式",
+      "cashOut": "提現模式"
     },
     "simple": {
       "form": {
         "inputAmount": {
-          "1": "If I hold",
-          "2": "for",
-          "3": "days"
+          "1": "如果我持有",
+          "2": "持續",
+          "3": "天"
         },
         "aboutTransactionPerDay": {
-          "1": "and I assume",
-          "2": "transactions take place every day."
+          "1": "以及我假設",
+          "2": "交易每天發生"
         },
-        "references": "References: there are about <b>{{avgTransaction}}</b> transactions per day in the last <b>{{avgDay}}</b> days"
+        "references": "參考：每天約有 <b>{{avgTransaction}}</b> 筆交易在最近 <b>{{avgDay}}</b>天内"
       },
       "summary": {
-        "endAmount": "The value is estimated to become <b>{{result}} USD</b> at the end of the period.",
-        "endGrowth": "The total potential growth is <b>{{result}} USD</b> at the end of the period.",
-        "endPercentageIncrease": "The potential percentage increase is <b>{{result}} %</b> at the end of the period."
+        "endAmount": "該價值估計將變為 <b>{{result}} USD</b>在本期間終結時。",
+        "endGrowth": "潛在的增長總量是 <b>{{result}} USD</b> 在本期間終結時。",
+        "endPercentageIncrease": "潛在的百分比增長是 <b>{{result}} %</b> 在本期間終結時。"
       }
     },
     "recurring": {
       "form": {
         "inputAmount": {
-          "1": "If I deposit",
-          "2": "for",
-          "3": "months",
-          "1-options": {
-            "daily": "daily",
-            "weekly": "weekly",
-            "monthly": "monthly"
-          }
+          "1": "如果我存入",
+          "options": {
+            "daily": "每天",
+            "weekly": "每週",
+            "monthly": "每月"
+          },
+          "2": "持續",
+          "3": "月"
         },
         "aboutTransactionPerDay": {
-          "1": "and I assume",
-          "2": "transactions take place every day."
+          "1": "以及我假設",
+          "2": "交易每天發生"
         },
-        "references": "References: there are about <b>{{avgTransaction}}</b> transactions per day in the last <b>{{avgDay}}</b> days"
+        "references": "參考：每天約有 <b>{{avgTransaction}}</b>筆交易在最近 <b>{{avgDay}}</b> 天内"
       },
       "summary": {
-        "endAmount": "The value is estimated to become <b>{{result}} USD</b> at the end of the period.",
-        "endGrowth": "The total potential growth is <b>{{result}} USD</b> at the end of the period.",
-        "endPercentageIncrease": "The potential percentage increase is <b>{{result}} %</b> at the end of the period."
+        "endAmount": "該價值估計將變為 <b>{{result}} USD</b> 在本期間終結時。",
+        "endGrowth": "潛在的增長總量是 <b>{{result}} USD</b> 在本期間終結時。",
+        "endPercentageIncrease": "潛在的百分比增長是 <b>{{result}} %</b> 在本期間終結時。"
       }
     },
     "cashOut": {
       "form": {
         "inputAmount": {
-          "1": "If I hold",
-          "2": "for",
-          "3": "days"
+          "1": "如果我持有",
+          "2": "持續",
+          "3": "天"
         },
         "aboutTransactionPerDay": {
-          "1": "and I assume",
-          "2": "transactions take place every day"
+          "1": "以及我假設",
+          "2": "交易每天發生"
         },
-        "references": "References: there are about <b>{{avgTransaction}}</b> transactions per day in the last <b>{{avgDay}}</b> days",
+        "references": "參考： 每天約有 <b>{{avgTransaction}}</b> 筆交易在最近 <b>{{avgDay}}</b> 天内",
         "cashOutFrquency": {
-          "1": "I plan to cash out",
+          "1": "我計劃提現",
           "options": {
-            "daily": "daily",
-            "weekly": "weekly",
-            "monthly": "monthly"
+            "daily": "每天",
+            "weekly": "每週",
+            "monthly": "每月"
           }
         }
       },
       "summary": {
-        "canCashOutEvg": "I can cash out on average <b>{{result}} USD</b> {{cashOutPeriod}}",
-        "endCashOutAmount": "I will be cashing out <b>{{result}} USD</b> in total and my HODLC value will remain the same at the end of the period.",
-        "endHODLCAmount": "I will hold <b>{{result}}</b> HODLC at the end of the period."
+        "canCashOutEvg": "我平均可以提現 <b>{{result}} USD</b> {{cashOutPeriod}}",
+        "endCashOutAmount": "我將總共提現 <b>{{result}} USD</b> 以及我的HODLC價值將保持不變在本期間終結時。",
+        "endHODLCAmount": "我將持有 <b>{{result}}</b> HODLC在本期間終結時。"
       }
     }
   },
   "joinUs": {
-    "title": "關注我們",
-    "content": {
-      "title": "官方社群",
-      "close": "關閉"
+    "title": "加入我們",
+    "content" : {
+      "title": "官方社交媒體團隊",
+      "close": "close關閉"
     }
   }
 }
