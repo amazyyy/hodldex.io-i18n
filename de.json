@@ -36,7 +36,8 @@
   },
   "wallet-connect": {
     "choose": "Wählen Sie Ihre Brieftasche",
-    "btn": "Verbinden Sie sich mit einer Brieftasche"
+    "btn": "Verbinden Sie sich mit einer Brieftasche",
+    "mobile-btn": "Connect wallet"
   },
   "wallet": {
     "balances": {

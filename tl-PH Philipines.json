@@ -2,7 +2,7 @@
   "testing": "setttiinnnnngggg",
   "system": {
     "ethereum": {
-      "confirmed" : "Kinumpirma ng Ethereum!",
+      "confirmed": "Kinumpirma ng Ethereum!",
       "failed": "Nakansela ang transaksyon!"
     }
   },
@@ -39,7 +39,8 @@
   },
   "wallet-connect": {
     "choose": "Piliin ang iyong walet",
-    "btn": "Kumonekta sa isang walet"
+    "btn": "Kumonekta sa isang walet",
+    "mobile-btn": "Connect wallet"
   },
   "wallet": {
     "balances": {
@@ -125,14 +126,21 @@
         "action": "Aksyon"
       },
       "content": {
-        "type" : {
-          "buy HODLC": "bumili ng HODLC",
-          "sell HODLC": "magbenta ng HODLC",
+        "type": {
+          "SellOrderFilled": "Buy",
+          "BuyOrderFilled": "Sell",
           "To HODLC": "Sa HODLC",
           "To HODLT": "Sa HODLT",
           "deposit": "deposito",
           "withdraw": "bawiin",
-          "approve": "aprubahan"
+          "approve": "aprubahan",
+          "SellOrderRefunded": "Sell Order Refunded",
+          "BuyOrderRefunded": "Buy Order Refunded",
+          "SellOrderOpened": "Sell Order Opened",
+          "BuyOrderOpened": "Buy Order Opened",
+          "BuyFromReserve": "Buy From Reserve",
+          "SellOrderCancelled": "Sell Order Cancelled",
+          "BuyOrderCancelled": "Buy Order Cancelled"
         }
       }
     }
@@ -228,13 +236,13 @@
       "form": {
         "inputAmount": {
           "1": "kung magdedeposito ako",
+          "2": "para",
+          "3": "buwan",
           "options": {
             "daily": "araw - araw",
             "weekly": "lingguhan",
             "monthly": "buwananan"
-          },
-          "2": "para",
-          "3": "buwan"
+          }
         },
         "aboutTransactionPerDay": {
           "1": "at ipinapalagay ko",
@@ -278,7 +286,7 @@
   },
   "joinUs": {
     "title": "Sumali Ka Na",
-    "content" : {
+    "content": {
       "title": "Opisyal na Mga Pangkat ng Social Media",
       "close": "Close"
     }
