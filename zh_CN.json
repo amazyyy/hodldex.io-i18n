@@ -186,12 +186,14 @@
     "alert": "未安装Metamask或者Mist。 请您考虑使用MetaMask或者Mist！",
     "notify": {
       "cancel": "您取消订单{{id}}，请等待Ethereum的确认。",
+      "notEnoughEth": "You only have {{ethAmount}} ETH, go to wallet page and deposit enough ETH.",
       "sellMin": "以当前价格，卖出至少{{min}}HODLC。",
       "sellMax": "以当前价格，卖出最多{{max}}HODLC。",
       "successSell": "您卖出{{hodlc}} HODLC请等待Ethereum的确认。",
       "buyMin": "以当前价格，用至少{{min}} ETH买入。",
       "buyMax": "以当前价格，用最多{{max}} ETH买入。",
-      "successBuy": "您买入{{hodlc}} HODLC，请等待Ethereum的确认。"
+      "successBuy": "您买入{{hodlc}} HODLC，请等待Ethereum的确认。",
+      "cannotRemoveDust": "This is the origin dust, you cannot performance transformation to make it disappear."
     },
     "modal": {
       "header": "取消订单",
