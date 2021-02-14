@@ -1,9 +1,9 @@
 {
-  "testing": "测试试试试试试试",
+  "testing": "setttiinnnnngggg",
   "system": {
     "ethereum": {
-      "confirmed": "Ethereum confirmed!",
-      "failed": "Transaction canceled!"
+      "confirmed" : "Ethereum确认！",
+      "failed": "交易取消！"
     }
   },
   "bottom": {
@@ -12,15 +12,14 @@
   "navigator": {
     "wallet": "钱包",
     "trade": "交易",
-    "explorer": "浏览器",
+    "explorer": "探险家",
     "settings": "设置",
-    "calculator": "Calculator",
-    "graph": "Graph",
-    "joinUs": "Join Us",
+    "calculator": "计算器",
+    "joinUs": "加入我们",
     "footer": {
-      "website": "Website",
-      "termsOfUse": "Terms of use",
-      "whitepaper": "Whitepaper"
+      "website": "网站",
+      "termsOfUse": "使用条款",
+      "whitepaper": "白皮书"
     }
   },
   "settings": {
@@ -32,16 +31,15 @@
   "marketInfo": {
     "title": "市场资讯",
     "items": {
-      "reserve": "剩余储备",
+      "reserve": "储备",
       "marketcap": "总市值",
       "circulation": "流通量",
       "hodlcPrice": "HODLC 价格"
     }
   },
   "wallet-connect": {
-    "choose": "Choose your wallet",
-    "btn": "Connect to a wallet",
-    "mobile-btn": "Connect wallet"
+    "choose": "选择您的钱包",
+    "btn": "连结到钱包"
   },
   "wallet": {
     "balances": {
@@ -53,32 +51,32 @@
         },
         "hodlc": {
           "btn1": "交易",
-          "btn2": "兑换成 HODLT"
+          "btn2": "换成HODLT"
         },
         "hodlt": {
           "btn1": "授权",
-          "btn2": "兑换成 HODLC",
-          "approveToRedeem": "以授权被兑换"
+          "btn2": "换成HODLC",
+          "approveToRedeem": "被批准贖回"
         }
       },
-      "claim": "Claim"
+      "claim": "申请领取"
     },
     "notify": {
-      "nothing": "Nothing happens :)",
-      "notConnected": "Metamask/Mist is not connected, try again.",
-      "depositeEthMax": "You can only deposite at most {{limit}} {{type}}.",
-      "withdrawEthMax": "You can only withdraw at most {{eth}} {{type}}.",
-      "toHodltMax": "You can only transfer at most {{hodlc}} {{type}} to HODLT.",
-      "toHodlcMax": "You can only transfer at most {{redeemPower}} {{type}} to HODLC.",
-      "approveMax": "You can only approve at most {{limit}} {{type}}.",
-      "toHodlc": "You convert {{amount}} HODLT to {{hodlcAmount}} HODLC, waiting for Ethereum to confirm.",
-      "toHodlt": "You convert {{hodlcAmount}} HODLC to {{amount}} HODLT, waiting for Ethereum to confirm.",
+      "nothing": "没有任何事件发生：）",
+      "notConnected": "Metamask/Mist未连接，请重新尝试。",
+      "depositeEthMax": "您最多可以存入 {{limit}} {{type}}。",
+      "withdrawEthMax": "您最多可以提取 {{eth}} {{type}}。",
+      "toHodltMax": "您最多可以转帐 {{hodlc}} {{type}} 到 HODLT。",
+      "toHodlcMax": "您最多可以转账 {{redeemPower}} {{type}} 到 HODLC。",
+      "approveMax": "您最多可以授权 {{limit}} {{type}}。",
+      "toHodlc": "您转换 {{amount}} HODLT 到 {{hodlcAmount}} HODLC, 正在等待Ethereum的确认。",
+      "toHodlt": "您转换 {{hodlcAmount}} HODLC 到 {{amount}} HODLT, 正在等待Ethereum的确认。",
       "otherActions": {
-        "template": "You {{action}} {{amount}} {{units}}, waiting for Ethereum to confirm.",
+        "template": "您 {{action}} {{amount}} {{units}}, 正在等待Ethereum的确认。",
         "action": {
           "deposit": "存入",
-          "withdraw": "提出",
-          "approve": "授權"
+          "withdraw": "提取",
+          "approve": "授权"
         },
         "units": {
           "eth": "ETH",
@@ -87,28 +85,28 @@
       }
     },
     "modal": {
-      "max": "Max",
+      "max": "最多",
       "title": {
-        "Deposit": "deposit",
-        "Withdraw": "withdraw",
-        "To HODLT": "To HODLT",
-        "To HODLC": "To HODLC",
-        "Approve": "Approve"
+        "Deposit": "存入",
+        "Withdraw": "提取",
+        "To HODLT": "到HODLT",
+        "To HODLC": "到HODLC",
+        "Approve": "授权"
       },
       "btn": {
-        "cancel": "Cancel",
-        "yes": "Yes"
+        "cancel": "取消",
+        "yes": "是"
       },
       "content": {
-        "amount": "amount",
-        "estimated": "estimated"
+        "amount": "金额",
+        "estimated": "估计"
       }
     }
   },
   "eventList": {
     "title": {
-      "my": "我的交易活动 ({{number}} 活动)",
-      "global": "全部交易活动 ({{number}} 活动)"
+      "my": "我的活动 ({{number}} events)",
+      "global": "全球活动 ({{number}} events)"
     },
     "lengthOptions": {
       "1hour": "过去1小时内",
@@ -119,177 +117,172 @@
       "all": "全部时间内"
     },
     "list": {
-      "noEvents": "没有交易活动",
+      "noEvents": "尚无活动",
       "header": {
-        "txnHash": "交易哈希值",
-        "address": "钱包地址",
+        "txnHash": "Txn Hash",
+        "address": "地址",
         "block": "区块",
-        "action": "类型"
+        "action": "操作"
       },
       "content": {
-        "type": {
-          "SellOrderFilled": "Buy",
-          "BuyOrderFilled": "Sell",
-          "To HODLC": "To HODLC",
-          "To HODLT": "To HODLT",
-          "deposit": "deposit",
-          "withdraw": "withdraw",
-          "approve": "approve",
-          "SellOrderRefunded": "Sell Order Refunded",
-          "BuyOrderRefunded": "Buy Order Refunded",
-          "SellOrderOpened": "Sell Order Opened",
-          "BuyOrderOpened": "Buy Order Opened",
-          "BuyFromReserve": "Buy From Reserve",
-          "SellOrderCancelled": "Sell Order Cancelled",
-          "BuyOrderCancelled": "Buy Order Cancelled"
+        "type" : {
+          "buy HODLC": "买入HODLC",
+          "sell HODLC": "卖出HODLC",
+          "To HODLC": "换成HODLC",
+          "To HODLT": "换成HODL",
+          "deposit": "存入",
+          "withdraw": "提取",
+          "approve": "授权"
         }
       }
     }
   },
   "trade": {
-    "maximumBtn": "max",
-    "minimumBtn": "min",
+    "maximumBtn": "最多",
+    "minimumBtn": "最少",
     "info": {
-      "balances": "您的总资产"
+      "balances": "您的余额"
     },
     "switcher": {
       "buy": "买入",
       "sell": "卖出"
     },
     "promptToConnect": {
-      "connect": "链接到",
-      "startTrade": " 开始交易"
+      "connect": "连接",
+      "startTrade": "开始交易"
     },
     "form": {
-      "placeholder": "添加数值",
+      "placeholder": "增值",
       "equivalent": "等值",
       "estimate": "估值",
       "action": {
         "buy": "买入",
-        "sell": "卖出"
+        "sell": "卖出",
+        "deposit": "存入"
       }
     },
     "orderBook": {
-      "global": "全部订单",
+      "global": "全球订单",
       "myOrders": "我的订单",
-      "singleOrder": "总共有{{amount}} {{units}}在队列中",
-      "multiOrders": "总共有{{amount}} {{units}}s在队列中",
+      "singleOrder": "总共有 {{amount}} {{units}} 在队列中",
+      "multiOrders": "总共有 {{amount}} {{units}} 在队列中",
       "title": {
         "orderId": "订单号",
         "price": "价格",
         "buy": "买家",
         "sell": "卖家"
       },
-      "noEvent": "没有交易活动",
+      "noEvent": "尚无活动",
       "cancel": "取消"
     },
-    "alert": "未安装Metamask或者Mist。 请您考虑使用MetaMask或者Mist！",
+    "alert": "未安装Metamask或者Mist。请您考虑使用MetaMask或者Mist！",
     "notify": {
-      "cancel": "您取消订单{{id}}，请等待Ethereum的确认。",
-      "notEnoughEth": "You only have {{ethAmount}} ETH, go to wallet page and deposit enough ETH.",
-      "sellMin": "以当前价格，卖出至少{{min}}HODLC。",
-      "sellMax": "以当前价格，卖出最多{{max}}HODLC。",
-      "successSell": "您卖出{{hodlc}} HODLC请等待Ethereum的确认。",
-      "buyMin": "以当前价格，用至少{{min}} ETH买入。",
-      "buyMax": "以当前价格，用最多{{max}} ETH买入。",
-      "successBuy": "您买入{{hodlc}} HODLC，请等待Ethereum的确认。",
-      "cannotRemoveDust": "This is the origin dust, you cannot performance transformation to make it disappear."
+      "cancel": "取消订单 {{id}}, 正在等待Ethereum的确认。",
+      "notEnoughEth": "您只有 {{ethAmount}} ETH, 请移步钱包页面并存入足够的ETH。",
+      "sellMin": "卖出至少 {{min}} HODLC，以当前价格。",
+      "sellMax": "卖出最多 {{max}} HODLC，以当前价格。",
+      "successSell": "您卖出 {{hodlc}} HODLC, 正在等待Ethereum的确认。",
+      "buyMin": "买入至少 {{min}} ETH，以当前价格。",
+      "buyMax": "买入最多 {{max}} ETH，以当前价格。",
+      "successBuy": "您买入 {{hodlc}} HODLC，正在等待Ethereum的确认。"
+      "cannotRemoveDust": "这是origin dust，您无法执行转换令其消失。"
     },
     "modal": {
       "header": "取消订单",
       "content": "您确认取消订单吗？",
       "no": "否",
-      "cancel": "确认"
+      "cancel": "取消"
     }
   },
   "calculator": {
-    "title": "Calculator",
+    "title": "计算器",
     "disclaimer": {
-      "title": "Calculator Disclaimer",
-      "cancel": "Cancel",
-      "agree": "I agree"
+      "title": "计算器免责声明",
+      "cancel": "取消",
+      "agree": "我同意"
     },
     "mode": {
-      "simple": "Simple Mode",
-      "resurring": "Recurring Mode",
-      "cashOut": "Cash Out Mode"
+      "simple": "简单模式",
+      "resurring": "循环模式",
+      "cashOut": "提现模式"
     },
     "simple": {
       "form": {
         "inputAmount": {
-          "1": "If I hold",
-          "2": "for",
-          "3": "days"
+          "1": "如果我持有",
+          "2": "持续",
+          "3": "天"
         },
         "aboutTransactionPerDay": {
-          "1": "and I assume",
-          "2": "transactions take place every day."
+          "1": "以及我假设",
+          "2": "交易每天发生"
         },
-        "references": "References: there are about <b>{{avgTransaction}}</b> transactions per day in the last <b>{{avgDay}}</b> days"
+        "references": "参考：每天约有 <b>{{avgTransaction}}</b> 笔交易在最近 <b>{{avgDay}}</b>天内"
       },
       "summary": {
-        "endAmount": "The value is estimated to become <b>{{result}} USD</b> at the end of the period.",
-        "endGrowth": "The total potential growth is <b>{{result}} USD</b> at the end of the period.",
-        "endPercentageIncrease": "The potential percentage increase is <b>{{result}} %</b> at the end of the period."
+        "endAmount": "该价值估计将变为 <b>{{result}} USD</b>在本期间终结时。",
+        "endGrowth": "潜在的增长总量是 <b>{{result}} USD</b> 在本期间终结时。",
+        "endPercentageIncrease": "潜在的百分比增长是 <b>{{result}} %</b> 在本期间终结时。"
       }
     },
     "recurring": {
       "form": {
         "inputAmount": {
-          "1": "If I deposit",
-          "2": "for",
-          "3": "months",
-          "1-options": {
-            "daily": "daily",
-            "weekly": "weekly",
-            "monthly": "monthly"
-          }
+          "1": "如果我存入",
+          "options": {
+            "daily": "每天",
+            "weekly": "每周",
+            "monthly": "每月"
+          },
+          "2": "持续",
+          "3": "月"
         },
         "aboutTransactionPerDay": {
-          "1": "and I assume",
-          "2": "transactions take place every day."
+          "1": "以及我假设",
+          "2": "交易每天发生"
         },
-        "references": "References: there are about <b>{{avgTransaction}}</b> transactions per day in the last <b>{{avgDay}}</b> days"
+        "references": "参考：每天约有 <b>{{avgTransaction}}</b>笔交易在最近 <b>{{avgDay}}</b> 天内"
       },
       "summary": {
-        "endAmount": "The value is estimated to become <b>{{result}} USD</b> at the end of the period.",
-        "endGrowth": "The total potential growth is <b>{{result}} USD</b> at the end of the period.",
-        "endPercentageIncrease": "The potential percentage increase is <b>{{result}} %</b> at the end of the period."
+        "endAmount": "该价值估计将变为 <b>{{result}} USD</b> 在本期间终结时。",
+        "endGrowth": "潜在的增长总量是 <b>{{result}} USD</b> 在本期间终结时。",
+        "endPercentageIncrease": "潜在的百分比增长是 <b>{{result}} %</b> 在本期间终结时。"
       }
     },
     "cashOut": {
       "form": {
         "inputAmount": {
-          "1": "If I hold",
-          "2": "for",
-          "3": "days"
+          "1": "如果我持有",
+          "2": "持续",
+          "3": "天"
         },
         "aboutTransactionPerDay": {
-          "1": "and I assume",
-          "2": "transactions take place every day"
+          "1": "以及我假设",
+          "2": "交易每天发生"
         },
-        "references": "References: there are about <b>{{avgTransaction}}</b> transactions per day in the last <b>{{avgDay}}</b> days",
+        "references": "参考： 每天约有 <b>{{avgTransaction}}</b> 笔交易在最近 <b>{{avgDay}}</b> 天内",
         "cashOutFrquency": {
-          "1": "I plan to cash out",
+          "1": "我计划提现",
           "options": {
-            "daily": "daily",
-            "weekly": "weekly",
-            "monthly": "monthly"
+            "daily": "每天",
+            "weekly": "每周",
+            "monthly": "每月"
           }
         }
       },
       "summary": {
-        "canCashOutEvg": "I can cash out on average <b>{{result}} USD</b> {{cashOutPeriod}}",
-        "endCashOutAmount": "I will be cashing out <b>{{result}} USD</b> in total and my HODLC value will remain the same at the end of the period.",
-        "endHODLCAmount": "I will hold <b>{{result}}</b> HODLC at the end of the period."
+        "canCashOutEvg": "我平均可以提现 <b>{{result}} USD</b> {{cashOutPeriod}}",
+        "endCashOutAmount": "我将总共提现 <b>{{result}} USD</b> 以及我的HODLC价值将保持不变在本期间终结时。",
+        "endHODLCAmount": "我将持有 <b>{{result}}</b> HODLC在本期间终结时。"
       }
     }
   },
   "joinUs": {
-    "title": "Join Us",
-    "content": {
-      "title": "Official Social Media Groups",
+    "title": "加入我们",
+    "content" : {
+      "title": "官方社交媒体团队",
       "close": "Close"
     }
   }
 }
+
