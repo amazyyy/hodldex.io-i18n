@@ -15,6 +15,7 @@
     "explorer": "Explorer",
     "settings": "Settings",
     "calculator": "Calculator",
+    "graph": "Graph",
     "joinUs": "Sumali ka",
     "footer": {
       "website": "Website",
@@ -192,7 +193,8 @@
       "successSell": "Nagbebenta ka ng {{hodlc}} HODLC, naghihintay para kumpirmahin ng Ethereum.",
       "buyMin": "Bumili ng hindi bababa sa {{min}} ETH, sa kasalukuyang rate.",
       "buyMax": "Bumili gamit ang hindi hihigit sa {{max}} ETH, sa kasalukuyang rate.",
-      "successBuy": "Bibili ka tungkol sa {{hodlc}} HODLC, naghihintay para kumpirmahin ng Ethereum."
+      "successBuy": "Bibili ka tungkol sa {{hodlc}} HODLC, naghihintay para kumpirmahin ng Ethereum.",
+      "cannotRemoveDust": "This is the origin dust, you cannot performance transformation to make it disappear."
     },
     "modal": {
       "header": "ikansela ang order",

@@ -15,6 +15,7 @@
     "explorer": "探险者",
     "settings": "設置",
     "calculator": "計算器",
+    "graph": "Graph",
     "joinUs": "加入我們",
     "footer": {
       "website": "網站",
@@ -192,7 +193,8 @@
       "successSell": "您賣出 {{hodlc}} HODLC, 正在等待Ethereum的確認。",
       "buyMin": "買入至少 {{min}} ETH，以當前價格。",
       "buyMax": "買入最多 {{max}} ETH，以當前價格。",
-      "successBuy": "您買入 {{hodlc}} HODLC，正在等待Ethereum的確認。"
+      "successBuy": "您買入 {{hodlc}} HODLC，正在等待Ethereum的確認。",
+      "cannotRemoveDust": "This is the origin dust, you cannot performance transformation to make it disappear."
     },
     "modal": {
       "header": "取消訂單",

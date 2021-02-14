@@ -12,6 +12,7 @@
     "explorer": "Forscher",
     "settings": "Einstellungen",
     "calculator": "Taschenrechner",
+    "graph": "Graph",
     "joinUs": "Begleiten Sie uns",
     "footer": {
       "website": "Webseite",
@@ -182,12 +183,14 @@
     "alert": "Metamask oder Mist ist nicht installiert. Sie sollten erwägen MetaMask oder Mist auszuprobieren!",
     "notify": {
       "cancel": "Auftrag stornieren für {{id}}, warten auf die Bestätigung von Ethereum.",
+      "notEnoughEth": "You only have {{ethAmount}} ETH, go to wallet page and deposit enough ETH.",
       "sellMin": "Verkaufe mindestens {{min}} HODLC, zum aktuellen Kurs.",
       "sellMax": "Verkaufe höchstens {{max}} HODLC, zum aktuellen Kurs.",
       "successSell": "Sie verkaufen {{hodlc}} HODLC, warten auf die Bestätigung von Ethereum.",
       "buyMin": "Kaufe mindestens {{min}} ETH, zum aktuellen Kurs.",
       "buyMax": "Kaufe höchstens {{max}} ETH, zum aktuellen Kurs.",
-      "successBuy": "Sie kaufen {{hodlc}} HODLC, warten auf die Bestätigung von Ethereum."
+      "successBuy": "Sie kaufen {{hodlc}} HODLC, warten auf die Bestätigung von Ethereum.",
+      "cannotRemoveDust": "This is the origin dust, you cannot performance transformation to make it disappear."
     },
     "modal": {
       "header": "Auftrag stornieren",
