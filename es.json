@@ -2,7 +2,7 @@
   "testing": "setttiinnnnngggg",
   "system": {
     "ethereum": {
-      "confirmed" : "¡Ethereum confirmado!",
+      "confirmed": "¡Ethereum confirmado!",
       "failed": "Transacción cancelada!"
     }
   },
@@ -125,14 +125,21 @@
         "action": "Acción"
       },
       "content": {
-        "type" : {
-          "buy HODLC": "comprar HODLC",
-          "sell HODLC": "vender HODLC",
+        "type": {
+          "SellOrderFilled": "Buy",
+          "BuyOrderFilled": "Sell",
           "To HODLC": "Hacia HODLC",
           "To HODLT": "Hacia HODLT",
           "deposit": "depositar",
           "withdraw": "retirar",
-          "approve": "aprobar"
+          "approve": "aprobar",
+          "SellOrderRefunded": "Sell Order Refunded",
+          "BuyOrderRefunded": "Buy Order Refunded",
+          "SellOrderOpened": "Sell Order Opened",
+          "BuyOrderOpened": "Buy Order Opened",
+          "BuyFromReserve": "Buy From Reserve",
+          "SellOrderCancelled": "Sell Order Cancelled",
+          "BuyOrderCancelled": "Buy Order Cancelled"
         }
       }
     }
@@ -184,7 +191,7 @@
       "successSell": "Vendes {{hodlc}} HODLC, esperando que Ethereum confirme.",
       "buyMin": "Compra con al menos {{min}} ETH, a tarifas actuales.",
       "buyMax": "Compra con como máximo {{max}} ETH, A tarifas actuales.",
-      "successBuy": "Tu compras {{hodlc}} HODLC, esperando que Ethereum confirme."
+      "successBuy": "Tu compras {{hodlc}} HODLC, esperando que Ethereum confirme.",
       "cannotRemoveDust": "Este es el polvo de origen, no puedes realizar una transformación para hacerlo desaparecer"
     },
     "modal": {
@@ -229,13 +236,13 @@
       "form": {
         "inputAmount": {
           "1": "Si deposito",
+          "2": "para",
+          "3": "meses",
           "options": {
             "daily": "diario",
             "weekly": "semanal",
             "monthly": "mensual"
-          },
-          "2": "para",
-          "3": "meses"
+          }
         },
         "aboutTransactionPerDay": {
           "1": "y asumo",
@@ -279,7 +286,7 @@
   },
   "joinUs": {
     "title": "Únete a nosotros",
-    "content" : {
+    "content": {
       "title": "Grupos oficiales de redes sociales",
       "close": "Close"
     }

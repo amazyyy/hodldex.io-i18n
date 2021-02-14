@@ -2,7 +2,7 @@
   "testing": "setttiinnnnngggg",
   "system": {
     "ethereum": {
-      "confirmed" : "Ethereum подтвержден!",
+      "confirmed": "Ethereum подтвержден!",
       "failed": "Транзакция отменена!"
     }
   },
@@ -102,9 +102,7 @@
         "estimated": "предполагаемый"
       }
     },
-    "eventlist" : {
-      
-    }
+    "eventlist": {}
   },
   "eventList": {
     "title": {
@@ -128,14 +126,21 @@
         "action": "Действие"
       },
       "content": {
-        "type" : {
-          "buy HODLC": "купить HODLC",
-          "sell HODLC": "продать HODLC",
+        "type": {
+          "SellOrderFilled": "Buy",
+          "BuyOrderFilled": "Sell",
           "To HODLC": "B HODLC",
           "To HODLT": "B  HODLT",
           "deposit": "депозит",
           "withdraw": "изымать",
-          "approve": "одобрить"
+          "approve": "одобрить",
+          "SellOrderRefunded": "Sell Order Refunded",
+          "BuyOrderRefunded": "Buy Order Refunded",
+          "SellOrderOpened": "Sell Order Opened",
+          "BuyOrderOpened": "Buy Order Opened",
+          "BuyFromReserve": "Buy From Reserve",
+          "SellOrderCancelled": "Sell Order Cancelled",
+          "BuyOrderCancelled": "Buy Order Cancelled"
         }
       }
     }
@@ -232,13 +237,13 @@
       "form": {
         "inputAmount": {
           "1": "Если я внесу депозит",
+          "2": "для",
+          "3": "месяцы",
           "options": {
             "daily": "повседневная",
             "weekly": "еженедельно",
             "monthly": "ежемесячно"
-          },
-          "2": "для",
-          "3": "месяцы"
+          }
         },
         "aboutTransactionPerDay": {
           "1": "и я предполагаю",
@@ -282,7 +287,7 @@
   },
   "joinUs": {
     "title": "Присоединяйтесь к нам",
-    "content" : {
+    "content": {
       "title": "Официальные группы в социальных сетях",
       "close": "Close"
     }
