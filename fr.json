@@ -2,7 +2,7 @@
   "testing": "setttiinnnnngggg",
   "system": {
     "ethereum": {
-      "confirmed" : "Ethereum confirmé!",
+      "confirmed": "Ethereum confirmé!",
       "failed": "Transaction annulée!"
     }
   },
@@ -125,14 +125,21 @@
         "action": "Action"
       },
       "content": {
-        "type" : {
-          "buy HODLC": "Acheter HODLC",
-          "sell HODLC": "Vendre HODLC",
+        "type": {
+          "SellOrderFilled": "Buy",
+          "BuyOrderFilled": "Sell",
           "To HODLC": "Vers HODLC",
           "To HODLT": "Vers HODLT",
           "deposit": "dépôt",
           "withdraw": "retrait",
-          "approve": "approuver"
+          "approve": "approuver",
+          "SellOrderRefunded": "Sell Order Refunded",
+          "BuyOrderRefunded": "Buy Order Refunded",
+          "SellOrderOpened": "Sell Order Opened",
+          "BuyOrderOpened": "Buy Order Opened",
+          "BuyFromReserve": "Buy From Reserve",
+          "SellOrderCancelled": "Sell Order Cancelled",
+          "BuyOrderCancelled": "Buy Order Cancelled"
         }
       }
     }
@@ -184,7 +191,7 @@
       "successSell": "Vous avez vendu {{hodlc}} HODLC, en attente d'Ethereum pour confirmer.",
       "buyMin": "Acheter au moins {{min}} ETH, au taux courant.",
       "buyMax": "Acheter au plus {{max}} ETH, au taux courant.",
-      "successBuy": "Vous avez acheté approximativement {{hodlc}} HODLC, en attente d'Ethereum pour confirmer."
+      "successBuy": "Vous avez acheté approximativement {{hodlc}} HODLC, en attente d'Ethereum pour confirmer.",
       "cannotRemoveDust": "Ceci est la poussière originale, aucune transformation ne peut la faire disparaitre."
     },
     "modal": {
@@ -229,13 +236,13 @@
       "form": {
         "inputAmount": {
           "1": "Si je dépose",
+          "2": "pour",
+          "3": "mois",
           "options": {
             "daily": "par jour",
             "weekly": "par semaine",
             "monthly": "par mois"
-          },
-          "2": "pour",
-          "3": "mois"
+          }
         },
         "aboutTransactionPerDay": {
           "1": "et je suppose que",
@@ -279,7 +286,7 @@
   },
   "joinUs": {
     "title": "Joignez-vous à nous",
-    "content" : {
+    "content": {
       "title": "Groupes officiels de médias sociaux",
       "close": "Fermer"
     }

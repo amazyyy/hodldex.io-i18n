@@ -2,7 +2,7 @@
   "testing": "setttiinnnnngggg",
   "system": {
     "ethereum": {
-      "confirmed" : "Ethereum bestätigt!",
+      "confirmed": "Ethereum bestätigt!",
       "failed": "Transaktion abgebrochen!"
     }
   },
@@ -122,14 +122,21 @@
         "action": "Aktion"
       },
       "content": {
-        "type" : {
-          "buy HODLC": "buy HODLC",
-          "sell HODLC": "sell HODLC",
+        "type": {
+          "SellOrderFilled": "Buy",
+          "BuyOrderFilled": "Sell",
           "To HODLC": "To HODLC",
           "To HODLT": "To HODLT",
           "deposit": "Anzahlung",
           "withdraw": "Abheben",
-          "approve": "Genehmigen"
+          "approve": "Genehmigen",
+          "SellOrderRefunded": "Sell Order Refunded",
+          "BuyOrderRefunded": "Buy Order Refunded",
+          "SellOrderOpened": "Sell Order Opened",
+          "BuyOrderOpened": "Buy Order Opened",
+          "BuyFromReserve": "Buy From Reserve",
+          "SellOrderCancelled": "Sell Order Cancelled",
+          "BuyOrderCancelled": "Buy Order Cancelled"
         }
       }
     }
@@ -223,13 +230,13 @@
       "form": {
         "inputAmount": {
           "1": "Wenn ich einzahle",
+          "2": "Zum",
+          "3": "Monate",
           "options": {
             "daily": "Täglich",
             "weekly": "wöchentlich",
             "monthly": "monatlich"
-          },
-          "2": "Zum",
-          "3": "Monate"
+          }
         },
         "aboutTransactionPerDay": {
           "1": "und ich nehme an",
@@ -273,7 +280,7 @@
   },
   "joinUs": {
     "title": "Begleiten Sie uns",
-    "content" : {
+    "content": {
       "title": "Offizielle Social Media Gruppen",
       "close": "Close"
     }
