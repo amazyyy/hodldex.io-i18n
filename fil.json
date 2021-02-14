@@ -2,83 +2,83 @@
   "testing": "setttiinnnnngggg",
   "system": {
     "ethereum": {
-      "confirmed": "Ethereum confirmed!",
-      "failed": "Transaction canceled!"
+      "confirmed": "Kinumpirma ng Ethereum!",
+      "failed": "Nakansela ang transaksyon!"
     }
   },
   "bottom": {
     "twitterShare": "HODL!"
   },
   "navigator": {
-    "wallet": "Wallet",
+    "wallet": "Walet",
     "trade": "Trade",
     "explorer": "Explorer",
     "settings": "Settings",
     "calculator": "Calculator",
     "graph": "Graph",
-    "joinUs": "Join Us",
+    "joinUs": "Sumali ka",
     "footer": {
       "website": "Website",
-      "termsOfUse": "Terms of use",
+      "termsOfUse": "Mga Tuntunin ng Paggamit",
       "whitepaper": "Whitepaper"
     }
   },
   "settings": {
     "title": "Settings",
     "items": {
-      "language": "Language"
+      "language": "Wika"
     }
   },
   "marketInfo": {
-    "title": "Market Info",
+    "title": "Impormasyon sa Market",
     "items": {
-      "reserve": "Reserve",
+      "reserve": "Reserba",
       "marketcap": "Marketcap",
-      "circulation": "Circulation",
-      "hodlcPrice": "HODLC Price"
+      "circulation": "Sirkulasyon",
+      "hodlcPrice": "HODLC Presyo"
     }
   },
   "wallet-connect": {
-    "choose": "Choose your wallet",
-    "btn": "Connect to a wallet",
+    "choose": "Piliin ang iyong walet",
+    "btn": "Kumonekta sa isang walet",
     "mobile-btn": "Connect wallet"
   },
   "wallet": {
     "balances": {
-      "title": "Wallet balance",
+      "title": "Balanse sa Walet",
       "card": {
         "eth": {
-          "btn1": "Deposit",
-          "btn2": "Withdraw"
+          "btn1": "Deposito",
+          "btn2": "Bawiin"
         },
         "hodlc": {
           "btn1": "Trade",
-          "btn2": "To HODLT"
+          "btn2": "Sa HODLC"
         },
         "hodlt": {
-          "btn1": "Approve",
-          "btn2": "To HODLC",
-          "approveToRedeem": "are approved to redeem"
+          "btn1": "Aprubado",
+          "btn2": "Sa HODLC",
+          "approveToRedeem": "ay naaprubahan upang matubos"
         }
       },
-      "claim": "Claim"
+      "claim": "Pagkuha"
     },
     "notify": {
-      "nothing": "Nothing happens :)",
-      "notConnected": "Metamask/Mist is not connected, try again.",
-      "depositeEthMax": "You can only deposite at most {{limit}} {{type}}.",
-      "withdrawEthMax": "You can only withdraw at most {{eth}} {{type}}.",
-      "toHodltMax": "You can only transfer at most {{hodlc}} {{type}} to HODLT.",
-      "toHodlcMax": "You can only transfer at most {{redeemPower}} {{type}} to HODLC.",
-      "approveMax": "You can only approve at most {{limit}} {{type}}.",
-      "toHodlc": "You convert {{amount}} HODLT to {{hodlcAmount}} HODLC, waiting for Ethereum to confirm.",
-      "toHodlt": "You convert {{hodlcAmount}} HODLC to {{amount}} HODLT, waiting for Ethereum to confirm.",
+      "nothing": "Walang nangyari :)",
+      "notConnected": "Metamask/Mist hindi konektado;subukang muli",
+      "depositeEthMax": "maaari ka lamang magdeposit ng higit sa {{limit}} {{type}}.",
+      "withdrawEthMax": "maaari ka lamang magwitdraw ng higit sa {{eth}} {{type}}.",
+      "toHodltMax": "maaari mo lamang ilipat ang higit sa {{hodlc}} {{type}}  sa HODLT.",
+      "toHodlcMax": "maaari mo lamang ilipat ang higit sa {{ redeemPower}} {{type}} sa HODLC.",
+      "approveMax": "maaari mo lamang aprubahan ang higit sa {{limit}} {{type}}.",
+      "toHodlc": "palitan ang  {{halaga}} HODLT sa  {{hodlc halaga}} HODLC , naghihintay para sa kumpirmasyon ng Ethereum",
+      "toHodlt": "palitan ang  {{hodlc halaga}} HODLC sa {{halaga}}  HODLT , naghihintay para sa kumpirmasyon ng Ethereum",
       "otherActions": {
-        "template": "You {{action}} {{amount}} {{units}}, waiting for Ethereum to confirm.",
+        "template": "Ikaw {{action}} {{halaga}} {{unit}}, naghihintay para sa kumpirmasyon ng Ethereum. ",
         "action": {
-          "deposit": "deposit",
-          "withdraw": "withdraw",
-          "approve": "approve"
+          "deposit": "deposito",
+          "withdraw": "bawiin",
+          "approve": "aprubahan"
         },
         "units": {
           "eth": "ETH",
@@ -89,52 +89,52 @@
     "modal": {
       "max": "Max",
       "title": {
-        "Deposit": "deposit",
-        "Withdraw": "withdraw",
-        "To HODLT": "To HODLT",
-        "To HODLC": "To HODLC",
-        "Approve": "Approve"
+        "Deposit": "deposito",
+        "Withdraw": "bawiin",
+        "To HODLT": "Sa HODLT",
+        "To HODLC": "Sa HODLC",
+        "Approve": "Aprubahan"
       },
       "btn": {
-        "cancel": "Cancel",
-        "yes": "Yes"
+        "cancel": "Kanselahin",
+        "yes": "Oo"
       },
       "content": {
-        "amount": "amount",
-        "estimated": "estimated"
+        "amount": "halaga",
+        "estimated": "tinantya"
       }
     }
   },
   "eventList": {
     "title": {
-      "my": "My Events ({{number}} events)",
-      "global": "Global Events ({{number}} events)"
+      "my": "Aking Mga Kaganapan (mga kaganapan sa {{number}})",
+      "global": "Mga Kaganapan Pandaigdigan (mga kaganapan sa {{number}}) "
     },
     "lengthOptions": {
-      "1hour": "past 1 hour",
-      "6hour": "past 6 hour",
-      "24hour": "past 1 day",
-      "72hour": "past 3 day",
-      "168hour": "past 1 week",
-      "all": "all time"
+      "1hour": "nakaraang  1 oras",
+      "6hour": "nakaraang  6 na oras",
+      "24hour": "nakaraang 1  araw",
+      "72hour": "nakaraang 3  araw",
+      "168hour": "nakaraang 1  linggo",
+      "all": "lahat ng oras"
     },
     "list": {
-      "noEvents": "No events",
+      "noEvents": "Walang mga kaganapan",
       "header": {
         "txnHash": "Txn Hash",
         "address": "Address",
         "block": "Block",
-        "action": "Action"
+        "action": "Aksyon"
       },
       "content": {
         "type": {
           "SellOrderFilled": "Buy",
           "BuyOrderFilled": "Sell",
-          "To HODLC": "To HODLC",
-          "To HODLT": "To HODLT",
-          "deposit": "deposit",
-          "withdraw": "withdraw",
-          "approve": "approve",
+          "To HODLC": "Sa HODLC",
+          "To HODLT": "Sa HODLT",
+          "deposit": "deposito",
+          "withdraw": "bawiin",
+          "approve": "aprubahan",
           "SellOrderRefunded": "Sell Order Refunded",
           "BuyOrderRefunded": "Buy Order Refunded",
           "SellOrderOpened": "Sell Order Opened",
@@ -150,146 +150,146 @@
     "maximumBtn": "max",
     "minimumBtn": "min",
     "info": {
-      "balances": "Your Balances"
+      "balances": "Ang iyong Balanse"
     },
     "switcher": {
-      "buy": "Buy",
-      "sell": "Sell"
+      "buy": "Bumili ",
+      "sell": "Magbenta "
     },
     "promptToConnect": {
-      "connect": "Connect with",
-      "startTrade": " to start trading"
+      "connect": "Kumonekta sa",
+      "startTrade": "magsimulang mag trade"
     },
     "form": {
-      "placeholder": "Add an value...",
-      "equivalent": "equivalent",
+      "placeholder": "Magdagdag ng halaga",
+      "equivalent": "katumbas",
       "estimate": "estimate",
       "action": {
-        "buy": "Buy",
-        "sell": "Sell",
-        "deposit": "Deposit"
+        "buy": "bumili",
+        "sell": "magbenta",
+        "deposit": "deposito"
       }
     },
     "orderBook": {
       "global": "Global Orders",
-      "myOrders": "My Orders",
-      "singleOrder": "Total {{amount}} {{units}} in the queue",
-      "multiOrders": "Total {{amount}} {{units}}s in the queue",
+      "myOrders": "Ang Order ko",
+      "singleOrder": "Kabuuang {{halaga}} {{mga unit}} sa pila ",
+      "multiOrders": "Kabuuang {{halaga}} {{mga unit}} sa pila ",
       "title": {
-        "orderId": "Order Id",
-        "price": "Price",
-        "buy": "buyer",
-        "sell": "Seller"
+        "orderId": "Order ID",
+        "price": "Presyo",
+        "buy": "mamimili",
+        "sell": "nagtitinda"
       },
-      "noEvent": "No events",
-      "cancel": "cancel"
+      "noEvent": "walang kaganapan",
+      "cancel": "kanselahin"
     },
-    "alert": "Metamask or Mist is not installed. You should consider trying MetaMask or Mist!",
+    "alert": "Ang Metamask o Mist ay hindi na-install. Dapat mong isaalang-alang ang pagsubok sa MetaMask o Mist! ",
     "notify": {
-      "cancel": "You cancel order of {{id}}, waiting for Ethereum to confirm.",
-      "notEnoughEth": "You only have {{ethAmount}} ETH, go to wallet page and deposit enough ETH.",
-      "sellMin": "Sell at least {{min}} HODLC, at current rate.",
-      "sellMax": "Sell at most {{max}} HODLC, at current rate.",
-      "successSell": "You sell {{hodlc}} HODLC, waiting for Ethereum to confirm.",
-      "buyMin": "Buy with at least {{min}} ETH, at current rate.",
-      "buyMax": "Buy with at most {{max}} ETH, at current rate.",
-      "successBuy": "You buy about {{hodlc}} HODLC, waiting for Ethereum to confirm.",
+      "cancel": "kanselahin ang order ng {{id}}, naghihintay para sa kumpirmasyon ng Ethereum. ",
+      "notEnoughEth": "Mayroon ka lamang {{ethAmount}} ETH, pumunta sa pahina ng wallet at magdeposito ng sapat na ETH.",
+      "sellMin": "Magbenta ng hindi bababa sa {{min}} HODLC, sa kasalukuyang rate.",
+      "sellMax": "Ibenta nang hindi hihigit sa {{max}} HODLC, sa kasalukuyang rate.",
+      "successSell": "Nagbebenta ka ng {{hodlc}} HODLC, naghihintay para kumpirmahin ng Ethereum.",
+      "buyMin": "Bumili ng hindi bababa sa {{min}} ETH, sa kasalukuyang rate.",
+      "buyMax": "Bumili gamit ang hindi hihigit sa {{max}} ETH, sa kasalukuyang rate.",
+      "successBuy": "Bibili ka tungkol sa {{hodlc}} HODLC, naghihintay para kumpirmahin ng Ethereum.",
       "cannotRemoveDust": "This is the origin dust, you cannot performance transformation to make it disappear."
     },
     "modal": {
-      "header": "Cancel Order",
-      "content": "Are you sure you want to cancel this order?",
-      "no": "No",
-      "cancel": "Cancel with"
+      "header": "ikansela ang order",
+      "content": "Sigurado ka bang nais mong kanselahin ang order na ito?",
+      "no": "hindi",
+      "cancel": "kanselahin sa"
     }
   },
   "calculator": {
     "title": "Calculator",
     "disclaimer": {
-      "title": "Calculator Disclaimer",
-      "cancel": "Cancel",
-      "agree": "I agree"
+      "title": "Calculator disclaimer",
+      "cancel": "kanselahin",
+      "agree": "sumasang-ayon ako"
     },
     "mode": {
-      "simple": "Simple Mode",
+      "simple": "Simpleng Mode",
       "resurring": "Recurring Mode",
       "cashOut": "Cash Out Mode"
     },
     "simple": {
       "form": {
         "inputAmount": {
-          "1": "If I hold",
-          "2": "for",
-          "3": "days"
+          "1": "Kung me hawak",
+          "2": "para",
+          "3": "araw"
         },
         "aboutTransactionPerDay": {
-          "1": "and I assume",
-          "2": "transactions take place every day."
+          "1": "at ipinapalagay ko",
+          "2": "nagaganap ang mga transaksyon araw-araw."
         },
-        "references": "References: there are about <b>{{avgTransaction}}</b> transactions per day in the last <b>{{avgDay}}</b> days"
+        "references": "Mga Sanggunian: may halos <b> {{avgTransaction}} </b> mga transaksyon bawat araw sa huling <b> {{avgDay}} </b> </b> araw"
       },
       "summary": {
-        "endAmount": "The value is estimated to become <b>{{result}} USD</b> at the end of the period.",
-        "endGrowth": "The total potential growth is <b>{{result}} USD</b> at the end of the period.",
-        "endPercentageIncrease": "The potential percentage increase is <b>{{result}} %</b> at the end of the period."
+        "endAmount": "Ang halaga ay tinatayang magiging <b> {{resulta}} USD </b> sa pagtatapos ng panahon.",
+        "endGrowth": "Ang kabuuang potensyal na paglaki ay <b> {{resulta}} USD </b> sa pagtatapos ng panahon.",
+        "endPercentageIncrease": "Ang potensyal na pagtaas ng porsyento ay <b> {{resulta}}% </b> sa pagtatapos ng panahon."
       }
     },
     "recurring": {
       "form": {
         "inputAmount": {
-          "1": "If I deposit",
-          "2": "for",
-          "3": "months",
-          "1-options": {
-            "daily": "daily",
-            "weekly": "weekly",
-            "monthly": "monthly"
+          "1": "kung magdedeposito ako",
+          "2": "para",
+          "3": "buwan",
+          "options": {
+            "daily": "araw - araw",
+            "weekly": "lingguhan",
+            "monthly": "buwananan"
           }
         },
         "aboutTransactionPerDay": {
-          "1": "and I assume",
-          "2": "transactions take place every day."
+          "1": "at ipinapalagay ko",
+          "2": "nagaganap ang mga transaksyon araw-araw."
         },
-        "references": "References: there are about <b>{{avgTransaction}}</b> transactions per day in the last <b>{{avgDay}}</b> days"
+        "references": "Mga Sanggunian: may halos <b> {{avgTransaction}} </b> mga transaksyon bawat araw sa huling <b> {{avgDay}} </b> </b> araw"
       },
       "summary": {
-        "endAmount": "The value is estimated to become <b>{{result}} USD</b> at the end of the period.",
-        "endGrowth": "The total potential growth is <b>{{result}} USD</b> at the end of the period.",
-        "endPercentageIncrease": "The potential percentage increase is <b>{{result}} %</b> at the end of the period."
+        "endAmount": "Ang halaga ay tinatayang magiging <b> {{resulta}} USD </b> sa pagtatapos ng panahon.",
+        "endGrowth": "Ang kabuuang potensyal na paglaki ay <b> {{resulta}} USD </b> sa pagtatapos ng panahon.",
+        "endPercentageIncrease": "Ang potensyal na pagtaas ng porsyento ay <b> {{resulta}}% </b> sa pagtatapos ng panahon."
       }
     },
     "cashOut": {
       "form": {
         "inputAmount": {
-          "1": "If I hold",
-          "2": "for",
-          "3": "days"
+          "1": "Kung me Hawak Ako",
+          "2": "para",
+          "3": "araw"
         },
         "aboutTransactionPerDay": {
-          "1": "and I assume",
-          "2": "transactions take place every day"
+          "1": "at ipinapalagay ko",
+          "2": "nagaganap ang mga transaksyon araw-araw"
         },
-        "references": "References: there are about <b>{{avgTransaction}}</b> transactions per day in the last <b>{{avgDay}}</b> days",
+        "references": "Mga Sanggunian: may halos <b> {{avgTransaction}} </b> mga transaksyon bawat araw sa huling <b> {{avgDay}} </b> </b> araw",
         "cashOutFrquency": {
-          "1": "I plan to cash out",
+          "1": "Plano kong mag-cash out",
           "options": {
-            "daily": "daily",
-            "weekly": "weekly",
-            "monthly": "monthly"
+            "daily": "araw - araw",
+            "weekly": "lingguhan",
+            "monthly": "buwananan"
           }
         }
       },
       "summary": {
-        "canCashOutEvg": "I can cash out on average <b>{{result}} USD</b> {{cashOutPeriod}}",
-        "endCashOutAmount": "I will be cashing out <b>{{result}} USD</b> in total and my HODLC value will remain the same at the end of the period.",
-        "endHODLCAmount": "I will hold <b>{{result}}</b> HODLC at the end of the period."
+        "canCashOutEvg": "Maaari akong mag-cash out sa average na <b> {{resulta}} USD </b> {{cashOutPeriod}}",
+        "endCashOutAmount": "Ilalabas ko sa kabuuan ang <b> {{resulta}} USD </b> at mananatiling pareho ang aking halaga ng HODLC sa pagtatapos ng panahon.",
+        "endHODLCAmount": "Hahawakan ko ang <b> {{resulta}} </b> HODLC sa pagtatapos ng panahon."
       }
     }
   },
   "joinUs": {
-    "title": "Join Us",
+    "title": "Sumali Ka Na",
     "content": {
-      "title": "Official Social Media Groups",
+      "title": "Opisyal na Mga Pangkat ng Social Media",
       "close": "Close"
     }
   }
