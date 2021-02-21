@@ -286,6 +286,18 @@
       }
     }
   },
+  "graph": {
+    "title": "Historical Graph",
+    "graph1": {
+      "header": "Trading Volume & Price",
+      "dataKey1": "HODLC Price",
+      "dataKey2": "ETH Volume"
+    },
+    "graph2": {
+      "header": "Transactions",
+      "dataKey": "Transactions"
+    }
+  },
   "joinUs": {
     "title": "Únete a nosotros",
     "content": {
