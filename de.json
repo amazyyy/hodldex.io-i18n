@@ -300,5 +300,15 @@
       "title": "Offizielle Social Media Gruppen",
       "close": "Close"
     }
+  },
+  "explorer": {
+    "insights": {
+      "items": {
+        "contractBalance": "Contract balances",
+        "depositAmount": "Deposit volume",
+        "buyVolume": "Buy volume",
+        "buyTransactions": "{{length}} buy txns"
+      }
+    }
   }
 }

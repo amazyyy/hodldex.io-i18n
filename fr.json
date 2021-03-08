@@ -304,5 +304,15 @@
       "title": "Groupes officiels de médias sociaux",
       "close": "Fermer"
     }
+  },
+  "explorer": {
+    "insights": {
+      "items": {
+        "contractBalance": "Contract balances",
+        "depositAmount": "Deposit volume",
+        "buyVolume": "Buy volume",
+        "buyTransactions": "{{length}} buy txns"
+      }
+    }
   }
 }

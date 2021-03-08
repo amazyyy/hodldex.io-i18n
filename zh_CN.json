@@ -304,5 +304,15 @@
       "title": "官方社交媒体团队",
       "close": "Close"
     }
+  },
+  "explorer": {
+    "insights": {
+      "items": {
+        "contractBalance": "Contract balances",
+        "depositAmount": "Deposit volume",
+        "buyVolume": "Buy volume",
+        "buyTransactions": "{{length}} buy txns"
+      }
+    }
   }
 }
