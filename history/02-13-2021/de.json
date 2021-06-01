@@ -2,7 +2,7 @@
   "testing": "setttiinnnnngggg",
   "system": {
     "ethereum": {
-      "confirmed" : "Ethereum bestätigt!",
+      "confirmed" : "Blockchain bestätigt!",
       "failed": "Transaktion abgebrochen!"
     }
   },
@@ -66,10 +66,10 @@
       "toHodltMax": "Sie können höchstens {{holdc}} {{type}} an HODLT übertragen.",
       "toHodlcMax": "Sie können höchstens {{redeemPower}} {{type}} an HODLC übertragen.",
       "approveMax": "Sie können höchstens {{limit}} {{type}} genehmigen.",
-      "toHodlc": "Sie konvertieren {{Betrag}} HODLT in {{hodlcAmount}} HODLC und warten auf die Bestätigung durch Ethereum.",
-      "toHodlt": "Sie konvertieren {{hodlcAmount}} HODLC in {{amount}} HODLT und warten auf die Bestätigung durch Ethereum.",
+      "toHodlc": "Sie konvertieren {{Betrag}} HODLT in {{hodlcAmount}} HODLC und warten auf die Bestätigung durch Blockchain.",
+      "toHodlt": "Sie konvertieren {{hodlcAmount}} HODLC in {{amount}} HODLT und warten auf die Bestätigung durch Blockchain.",
       "otherActions": {
-        "template": "Sie warten auf die Bestätigung von Ethereum.",
+        "template": "Sie warten auf die Bestätigung von Blockchain.",
         "action": {
           "deposit": "Anzahlung",
           "withdraw": "Abheben",
@@ -173,13 +173,13 @@
     },
     "alert": "Metamask oder Mist ist nicht installiert. Sie sollten erwägen MetaMask oder Mist auszuprobieren!",
     "notify": {
-      "cancel": "Auftrag stornieren für {{id}}, warten auf die Bestätigung von Ethereum.",
+      "cancel": "Auftrag stornieren für {{id}}, warten auf die Bestätigung von Blockchain.",
       "sellMin": "Verkaufe mindestens {{min}} HODLC, zum aktuellen Kurs.",
       "sellMax": "Verkaufe höchstens {{max}} HODLC, zum aktuellen Kurs.",
-      "successSell": "Sie verkaufen {{hodlc}} HODLC, warten auf die Bestätigung von Ethereum.",
+      "successSell": "Sie verkaufen {{hodlc}} HODLC, warten auf die Bestätigung von Blockchain.",
       "buyMin": "Kaufe mindestens {{min}} ETH, zum aktuellen Kurs.",
       "buyMax": "Kaufe höchstens {{max}} ETH, zum aktuellen Kurs.",
-      "successBuy": "Sie kaufen {{hodlc}} HODLC, warten auf die Bestätigung von Ethereum."
+      "successBuy": "Sie kaufen {{hodlc}} HODLC, warten auf die Bestätigung von Blockchain."
     },
     "modal": {
       "header": "Auftrag stornieren",
