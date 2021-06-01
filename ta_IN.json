@@ -4,6 +4,10 @@
     "ethereum": {
       "confirmed": "Blockchain உறுதிப்படுத்தப்பட்டது!",
       "failed": "பரிவர்த்தனை ரத்து செய்யப்பட்டது!"
+    },
+    "transaction": {
+      "confirmed": "Blockchain உறுதிப்படுத்தப்பட்டது!",
+      "failed": "பரிவர்த்தனை ரத்து செய்யப்பட்டது!"
     }
   },
   "bottom": {
