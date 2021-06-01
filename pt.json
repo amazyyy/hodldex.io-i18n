@@ -4,6 +4,10 @@
     "ethereum": {
       "confirmed": "Blockchain confirmed!",
       "failed": "Transaction canceled!"
+    },
+    "transaction": {
+      "confirmed": "Blockchain confirmed!",
+      "failed": "Transaction canceled!"
     }
   },
   "bottom": {

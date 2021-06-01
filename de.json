@@ -4,6 +4,10 @@
     "ethereum": {
       "confirmed": "Blockchain bestätigt!",
       "failed": "Transaktion abgebrochen!"
+    },
+    "transaction": {
+      "confirmed": "Blockchain bestätigt!",
+      "failed": "Transaktion abgebrochen!"
     }
   },
   "navigator": {
