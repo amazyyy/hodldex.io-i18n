@@ -4,6 +4,10 @@
     "ethereum": {
       "confirmed" : "Blockchain confirmed!",
       "failed": "Transaction canceled!"
+    },
+    "transaction": {
+      "confirmed" : "Blockchain confirmed!",
+      "failed": "Transaction canceled!"
     }
   },
   "bottom": {
@@ -82,7 +86,8 @@
         },
         "units": {
           "eth": "ETH",
-          "hodlt": "HODLT"
+          "hodlt": "HODLT",
+          "eos": "EOS"
         }
       }
     },
