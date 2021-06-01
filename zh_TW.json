@@ -2,7 +2,7 @@
   "testing": "setttiinnnnngggg",
   "system": {
     "ethereum": {
-      "confirmed": "Ethereum 確認！",
+      "confirmed": "Blockchain 確認！",
       "failed": "交易失敗"
     }
   },
@@ -71,10 +71,10 @@
       "toHodltMax": "您最多可以轉帳 {{hodlc}} {{type}} 到 HODLT。",
       "toHodlcMax": "您最多可以轉帳 {{redeemPower}} {{type}} 到 HODLC。",
       "approveMax": "您最多可以授權 {{limit}} {{type}}。",
-      "toHodlc": "您轉換 {{amount}} HODLT 到 {{hodlcAmount}} HODLC, 正在等待 Ethereum 確認。",
-      "toHodlt": "您轉換 {{hodlcAmount}} HODLC 到 {{amount}} HODLT, 正在等待 Ethereum 確認。",
+      "toHodlc": "您轉換 {{amount}} HODLT 到 {{hodlcAmount}} HODLC, 正在等待 Blockchain 確認。",
+      "toHodlt": "您轉換 {{hodlcAmount}} HODLC 到 {{amount}} HODLT, 正在等待 Blockchain 確認。",
       "otherActions": {
-        "template": "您 {{action}} {{amount}} {{units}}, 正在等待 Ethereum 確認。",
+        "template": "您 {{action}} {{amount}} {{units}}, 正在等待 Blockchain 確認。",
         "action": {
           "deposit": "存入",
           "withdraw": "提取",

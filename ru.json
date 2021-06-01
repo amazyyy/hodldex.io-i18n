@@ -2,7 +2,7 @@
   "testing": "setttiinnnnngggg",
   "system": {
     "ethereum": {
-      "confirmed": "Ethereum подтвержден!",
+      "confirmed": "Blockchain подтвержден!",
       "failed": "Транзакция отменена!"
     }
   },
@@ -71,10 +71,10 @@
       "toHodltMax": "Вы можете передать не более {{holdc}} {{type}} в HODLT.",
       "toHodlcMax": "Вы можете передать не более {{redeemPower}} {{type}} в HODLC.",
       "approveMax": "Вы можете одобрить не более {{limit}} {{type}}.",
-      "toHodlc": "Вы конвертируете {{amount}} HODLT в {{hodlcAmount}} HODLC, ожидая подтверждения Ethereum.",
-      "toHodlt": "Вы конвертируете {{hodlcAmount}} HODLC в {{amount}} HODLT, ожидая подтверждения Ethereum.",
+      "toHodlc": "Вы конвертируете {{amount}} HODLT в {{hodlcAmount}} HODLC, ожидая подтверждения Blockchain.",
+      "toHodlt": "Вы конвертируете {{hodlcAmount}} HODLC в {{amount}} HODLT, ожидая подтверждения Blockchain.",
       "otherActions": {
-        "template": "Вы {{действие}} {{amount}} {{units}} ждете подтверждения Ethereum.",
+        "template": "Вы {{действие}} {{amount}} {{units}} ждете подтверждения Blockchain.",
         "action": {
           "deposit": "Депозит",
           "withdraw": "отзывать",
@@ -186,14 +186,14 @@
     },
     "alert": "Metamask или Mist не устанавливается. Вам стоит попробовать MetaMask или Mist!",
     "notify": {
-      "cancel": "Вы отменяете заказ на {{id}}, ожидая подтверждения Ethereum.",
+      "cancel": "Вы отменяете заказ на {{id}}, ожидая подтверждения Blockchain.",
       "notEnoughEth": "У вас есть только {{ethAmount}} ETH, перейдите на страницу кошелька и внесите достаточно ETH.",
       "sellMin": "Продайте не менее {{min}} HODLC по текущему курсу.",
       "sellMax": "Продать не более {{max}} HODLC по текущему курсу.",
-      "successSell": "Вы продаете {{hodlc}} HODLC, ожидая подтверждения Ethereum.",
+      "successSell": "Вы продаете {{hodlc}} HODLC, ожидая подтверждения Blockchain.",
       "buyMin": "Купите не менее {{min}} ETH по текущему курсу.",
       "buyMax": "Купите не более {{max}} ETH по текущему курсу.",
-      "successBuy": "Вы покупаете около {{hodlc}} HODLC, ожидая подтверждения Ethereum.",
+      "successBuy": "Вы покупаете около {{hodlc}} HODLC, ожидая подтверждения Blockchain.",
       "cannotRemoveDust": "Это исходная пыль, вы не можете выполнить преобразование, чтобы она исчезла."
     },
     "modal": {

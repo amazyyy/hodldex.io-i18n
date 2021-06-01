@@ -2,7 +2,7 @@
   "testing": "setttiinnnnngggg",
   "system": {
     "ethereum": {
-      "confirmed" : "Ethereum confirmé!",
+      "confirmed" : "Blockchain confirmé!",
       "failed": "Transaction annulée!"
     }
   },
@@ -69,10 +69,10 @@
       "toHodltMax": "Vous ne pouvez transférer plus de {{hodlc}} {{type}} vers HODLT.",
       "toHodlcMax": "Vous ne pouvez transférer plus de {{redeem Power}} {{type}} vers HODLC.",
       "approveMax": "Vous ne pouvez approuver plus de {{limit}} {{type}}.",
-      "toHodlc": "Vous avez converti {{amount}} HODLT vers {{hodlcAmount}} HODLC, en attente d'Ethereum pour confirmer.",
-      "toHodlt": "Vous avez converti {{hodlcAmount}} HODLC vers {{amount}} HODLT, en attente d'Ethereum pour confirmer.",
+      "toHodlc": "Vous avez converti {{amount}} HODLT vers {{hodlcAmount}} HODLC, en attente d'Blockchain pour confirmer.",
+      "toHodlt": "Vous avez converti {{hodlcAmount}} HODLC vers {{amount}} HODLT, en attente d'Blockchain pour confirmer.",
       "otherActions": {
-        "template": "Votre {{action}} {{amount}} {{units}}, en attente d'Ethereum pour confirmer.",
+        "template": "Votre {{action}} {{amount}} {{units}}, en attente d'Blockchain pour confirmer.",
         "action": {
           "deposit": "dépôt",
           "withdraw": "retrait",
@@ -177,14 +177,14 @@
     },
     "alert": "Metamask ou Mist non installés. Vous devriez essayer MetaMask ou Mist!",
     "notify": {
-      "cancel": "Annulation de la commande de {{id}}, en attente d'Ethereum pour confirmer.",
+      "cancel": "Annulation de la commande de {{id}}, en attente d'Blockchain pour confirmer.",
       "notEnoughEth": "Vous n'avez que {{ethAmount}} ETH, allez à la page du portefeuille et déposer suffisamment d'ETH.",
       "sellMin": "Vendre au moins {{min}} HODLC, au taux courant.",
       "sellMax": "Vendre au plus {{max}} HODLC, au taux courant.",
-      "successSell": "Vous avez vendu {{hodlc}} HODLC, en attente d'Ethereum pour confirmer.",
+      "successSell": "Vous avez vendu {{hodlc}} HODLC, en attente d'Blockchain pour confirmer.",
       "buyMin": "Acheter au moins {{min}} ETH, au taux courant.",
       "buyMax": "Acheter au plus {{max}} ETH, au taux courant.",
-      "successBuy": "Vous avez acheté approximativement {{hodlc}} HODLC, en attente d'Ethereum pour confirmer."
+      "successBuy": "Vous avez acheté approximativement {{hodlc}} HODLC, en attente d'Blockchain pour confirmer."
       "cannotRemoveDust": "Ceci est la poussière originale, aucune transformation ne peut la faire disparaitre."
     },
     "modal": {

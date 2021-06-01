@@ -2,7 +2,7 @@
   "testing": "setttiinnnnngggg",
   "system": {
     "ethereum": {
-      "confirmed" : "Kinumpirma ng Ethereum!",
+      "confirmed" : "Kinumpirma ng Blockchain!",
       "failed": "Nakansela ang transaksyon!"
     }
   },
@@ -69,10 +69,10 @@
       "toHodltMax": "maaari mo lamang ilipat ang higit sa {{hodlc}} {{type}}  sa HODLT.",
       "toHodlcMax": "maaari mo lamang ilipat ang higit sa {{ redeemPower}} {{type}} sa HODLC.",
       "approveMax": "maaari mo lamang aprubahan ang higit sa {{limit}} {{type}}.",
-      "toHodlc": "palitan ang  {{halaga}} HODLT sa  {{hodlc halaga}} HODLC , naghihintay para sa kumpirmasyon ng Ethereum",
-      "toHodlt": "palitan ang  {{hodlc halaga}} HODLC sa {{halaga}}  HODLT , naghihintay para sa kumpirmasyon ng Ethereum",
+      "toHodlc": "palitan ang  {{halaga}} HODLT sa  {{hodlc halaga}} HODLC , naghihintay para sa kumpirmasyon ng Blockchain",
+      "toHodlt": "palitan ang  {{hodlc halaga}} HODLC sa {{halaga}}  HODLT , naghihintay para sa kumpirmasyon ng Blockchain",
       "otherActions": {
-        "template": "Ikaw {{action}} {{halaga}} {{unit}}, naghihintay para sa kumpirmasyon ng Ethereum. ",
+        "template": "Ikaw {{action}} {{halaga}} {{unit}}, naghihintay para sa kumpirmasyon ng Blockchain. ",
         "action": {
           "deposit": "deposito",
           "withdraw": "bawiin",
@@ -177,14 +177,14 @@
     },
     "alert": "Ang Metamask o Mist ay hindi na-install. Dapat mong isaalang-alang ang pagsubok sa MetaMask o Mist! ",
     "notify": {
-      "cancel": "kanselahin ang order ng {{id}}, naghihintay para sa kumpirmasyon ng Ethereum. ",
+      "cancel": "kanselahin ang order ng {{id}}, naghihintay para sa kumpirmasyon ng Blockchain. ",
       "notEnoughEth": "Mayroon ka lamang {{ethAmount}} ETH, pumunta sa pahina ng wallet at magdeposito ng sapat na ETH.",
       "sellMin": "Magbenta ng hindi bababa sa {{min}} HODLC, sa kasalukuyang rate.",
       "sellMax": "Ibenta nang hindi hihigit sa {{max}} HODLC, sa kasalukuyang rate.",
-      "successSell": "Nagbebenta ka ng {{hodlc}} HODLC, naghihintay para kumpirmahin ng Ethereum.",
+      "successSell": "Nagbebenta ka ng {{hodlc}} HODLC, naghihintay para kumpirmahin ng Blockchain.",
       "buyMin": "Bumili ng hindi bababa sa {{min}} ETH, sa kasalukuyang rate.",
       "buyMax": "Bumili gamit ang hindi hihigit sa {{max}} ETH, sa kasalukuyang rate.",
-      "successBuy": "Bibili ka tungkol sa {{hodlc}} HODLC, naghihintay para kumpirmahin ng Ethereum."
+      "successBuy": "Bibili ka tungkol sa {{hodlc}} HODLC, naghihintay para kumpirmahin ng Blockchain."
     },
     "modal": {
       "header": "ikansela ang order",
