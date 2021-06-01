@@ -1,10 +1,6 @@
 {
   "testing": "setttiinnnnngggg",
   "system": {
-    "ethereum": {
-      "confirmed": "¡Blockchain confirmado!",
-      "failed": "Transacción cancelada!"
-    },
     "transaction": {
       "confirmed": "¡Blockchain confirmado!",
       "failed": "Transacción cancelada!"

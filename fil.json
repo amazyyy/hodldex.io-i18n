@@ -1,10 +1,6 @@
 {
   "testing": "setttiinnnnngggg",
   "system": {
-    "ethereum": {
-      "confirmed": "Kinumpirma ng Blockchain!",
-      "failed": "Nakansela ang transaksyon!"
-    },
     "transaction": {
       "confirmed": "Kinumpirma ng Blockchain!",
       "failed": "Nakansela ang transaksyon!"
