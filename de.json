@@ -83,7 +83,8 @@
         },
         "units": {
           "eth": "ETH",
-          "hodlt": "HODLT"
+          "hodlt": "HODLT",
+          "eos": "EOS"
         }
       }
     },
