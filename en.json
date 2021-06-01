@@ -1,11 +1,5 @@
 {
   "testing": "setttiinnnnngggg",
-  "system": {
-    "ethereum": {
-      "confirmed" : "Ethereum confirmed!",
-      "failed": "Transaction canceled!"
-    }
-  },
   "bottom": {
     "twitterShare": "HODL!"
   },
@@ -56,12 +50,12 @@
           "btn2": "To HODLT"
         },
         "hodlt": {
-          "btn1": "Approve",
-          "btn2": "To HODLC",
+          "btn1": "Deposit",
+          "btn2": "Withdraw",
+          "btn3": "To HODLC",
           "approveToRedeem": "are approved to redeem"
         }
-      },
-      "claim": "Claim"
+      }
     },
     "notify": {
       "nothing": "Nothing happens :)",
@@ -71,38 +65,36 @@
       "toHodltMax": "You can only transfer at most {{hodlc}} {{type}} to HODLT.",
       "toHodlcMax": "You can only transfer at most {{redeemPower}} {{type}} to HODLC.",
       "approveMax": "You can only approve at most {{limit}} {{type}}.",
-      "toHodlc": "You convert {{amount}} HODLT to {{hodlcAmount}} HODLC, waiting for Ethereum to confirm.",
-      "toHodlt": "You convert {{hodlcAmount}} HODLC to {{amount}} HODLT, waiting for Ethereum to confirm.",
+      "toHodlc": "You convert {{amount}} HODLT to {{hodlcAmount}} HODLC, waiting for wallet to sign.",
+      "toHodlt": "You convert {{hodlcAmount}} HODLC to {{amount}} HODLT, waiting for wallet to sign.",
       "otherActions": {
-        "template": "You {{action}} {{amount}} {{units}}, waiting for Ethereum to confirm.",
+        "template": "You {{action}} {{amount}} {{units}},waiting for wallet to sign.",
+        "templateSuccess": "{{action}}{{status}} please wait for the balance refresh",
+        "templateFail": "{{action}}{{status}}",
         "action": {
           "deposit": "deposit",
           "withdraw": "withdraw",
-          "approve": "approve"
+          "to": "convert",
+          "approve": "授權",
+          "buy": "buy",
+          "sell": "sell"
         },
         "units": {
-          "eth": "ETH",
+          "eth": "EOS",
+          "eos": "EOS",
           "hodlt": "HODLT"
+        },
+        "status": {
+          "success":"success",
+          "fail":"failed"
         }
-      }
+      },
+      "redeemSuccess": "redeem success!",
+      "redeemFailed": "redeem failed!",
+      "redeemSign": "redeem,waiting for wallet to sign"
     },
     "modal": {
-      "max": "Max",
-      "title": {
-        "Deposit": "deposit",
-        "Withdraw": "withdraw",
-        "To HODLT": "To HODLT",
-        "To HODLC": "To HODLC",
-        "Approve": "Approve"
-      },
-      "btn": {
-        "cancel": "Cancel",
-        "yes": "Yes"
-      },
-      "content": {
-        "amount": "amount",
-        "estimated": "estimated"
-      }
+      "max": "Max"
     }
   },
   "eventList": {
@@ -125,24 +117,6 @@
         "address": "Address",
         "block": "Block",
         "action": "Action"
-      },
-      "content": {
-        "type" : {
-          "SellOrderFilled": "Buy",
-          "BuyOrderFilled": "Sell",
-          "To HODLC": "To HODLC",
-          "To HODLT": "To HODLT",
-          "deposit": "Deposit",
-          "withdraw": "Withdraw",
-          "approve": "Approve",
-          "SellOrderRefunded": "Sell Order Refunded",
-          "BuyOrderRefunded": "Buy Order Refunded",
-          "SellOrderOpened": "Sell Order Opened",
-          "BuyOrderOpened": "Buy Order Opened",
-          "BuyFromReserve": "Buy From Reserve",
-          "SellOrderCancelled": "Sell Order Cancelled",
-          "BuyOrderCancelled": "Buy Order Cancelled"
-        }
       }
     }
   },
@@ -156,7 +130,7 @@
       "buy": "Buy",
       "sell": "Sell"
     },
-    "promptToConnect": {
+    "promptToConnet": {
       "connect": "Connect with",
       "startTrade": " to start trading"
     },
@@ -173,8 +147,8 @@
     "orderBook": {
       "global": "Global Orders",
       "myOrders": "My Orders",
-      "singleOrder": "Total {{amount}} {{units}}",
-      "multiOrders": "Total {{amount}} {{units}}s",
+      "singleOrder": "Total {{amount}} {{units}} in the queue",
+      "multiOrders": "Total {{amount}} {{units}}s in the queue",
       "title": {
         "orderId": "Order Id",
         "price": "Price",
@@ -186,14 +160,18 @@
     },
     "alert": "Metamask or Mist is not installed. You should consider trying MetaMask or Mist!",
     "notify": {
-      "cancel": "You cancel order of {{id}}, waiting for Ethereum to confirm.",
-      "notEnoughEth": "You only have {{ethAmount}} ETH, go to wallet page and deposit enough ETH.",
+      "cancel": "You cancel order of {{id}}, waiting for wallet to sign.",
+      "cancelSuccess": "order {{id}} canceled success",
+      "cancelFailed": "order {{id}} canceled failed",
+      "notEnoughEth": "You only have {{ethAmount}} EOS, go to wallet page and deposit enough EOS.",
       "sellMin": "Sell at least {{min}} HODLC, at current rate.",
       "sellMax": "Sell at most {{max}} HODLC, at current rate.",
-      "successSell": "You sell {{hodlc}} HODLC, waiting for Ethereum to confirm.",
-      "buyMin": "Buy with at least {{min}} ETH, at current rate.",
-      "buyMax": "Buy with at most {{max}} ETH, at current rate.",
-      "successBuy": "You buy about {{hodlc}} HODLC, waiting for Ethereum to confirm.",
+      "sell": "your hodlc balance is less than{{amount}}。",
+      "successSell": "You sell {{hodlc}} HODLC, waiting for wallet to sign",
+      "buyMin": "Buy with at least {{min}} EOS, at current rate.",
+      "buyMax": "Buy with at most {{max}} EOS, at current rate.",
+      "buy": "your eos balance is less than{{amount}}。",
+      "successBuy": "You buy about {{hodlc}} HODLC, waiting for wallet to sign.",
       "cannotRemoveDust": "This is the origin dust, you cannot performance transformation to make it disappear."
     },
     "modal": {
@@ -203,109 +181,14 @@
       "cancel": "Cancel with"
     }
   },
-  "explorer": {
-    "insights": {
-      "items": {
-        "contractBalance": "Contract balances",
-        "depositAmount": "Deposit volume",
-        "buyVolume": "Buy volume",
-        "buyTransactions": "{{length}} buy txns"
-      }
-    }
-  },
-  "calculator": {
-    "title": "Calculator",
-    "disclaimer": {
-      "title": "Calculator Disclaimer",
-      "cancel": "Cancel",
-      "agree": "I agree"
+  "walletConnect": {
+    "scatter": {
+      "success": "Scatter connect success wait for the page refresh",
+      "fail": "Scatter desktop are not running"
     },
-    "mode": {
-      "simple": "Simple Mode",
-      "resurring": "Recurring Mode",
-      "cashOut": "Cash Out Mode"
-    },
-    "simple": {
-      "form": {
-        "inputAmount": {
-          "1": "If I hold",
-          "2": "for",
-          "3": "days"
-        },
-        "aboutTransactionPerDay": {
-          "1": "and I assume",
-          "2": "transactions take place every day."
-        },
-        "references": "References: there are about <b>{{avgTransaction}}</b> transactions per day in the last <b>{{avgDay}}</b> days"
-      },
-      "summary": {
-        "endAmount": "The value is estimated to become <b>{{result}} USD</b> at the end of the period.",
-        "endGrowth": "The total potential growth is <b>{{result}} USD</b> at the end of the period.",
-        "endPercentageIncrease": "The potential percentage increase is <b>{{result}} %</b> at the end of the period."
-      }
-    },
-    "recurring": {
-      "form": {
-        "inputAmount": {
-          "1": "If I deposit",
-          "1-options": {
-            "daily": "daily",
-            "weekly": "weekly",
-            "monthly": "monthly"
-          },
-          "2": "for",
-          "3": "months"
-        },
-        "aboutTransactionPerDay": {
-          "1": "and I assume",
-          "2": "transactions take place every day."
-        },
-        "references": "References: there are about <b>{{avgTransaction}}</b> transactions per day in the last <b>{{avgDay}}</b> days"
-      },
-      "summary": {
-        "endAmount": "The value is estimated to become <b>{{result}} USD</b> at the end of the period.",
-        "endGrowth": "The total potential growth is <b>{{result}} USD</b> at the end of the period.",
-        "endPercentageIncrease": "The potential percentage increase is <b>{{result}} %</b> at the end of the period."
-      }
-    },
-    "cashOut": {
-      "form": {
-        "inputAmount": {
-          "1": "If I hold",
-          "2": "for",
-          "3": "days"
-        },
-        "aboutTransactionPerDay": {
-          "1": "and I assume",
-          "2": "transactions take place every day"
-        },
-        "references": "References: there are about <b>{{avgTransaction}}</b> transactions per day in the last <b>{{avgDay}}</b> days",
-        "cashOutFrquency": {
-          "1": "I plan to cash out",
-          "1-options": {
-            "daily": "daily",
-            "weekly": "weekly",
-            "monthly": "monthly"
-          }
-        }
-      },
-      "summary": {
-        "canCashOutEvg": "I can cash out on average <b>{{result}} USD</b> {{cashOutPeriod}}",
-        "endCashOutAmount": "I will be cashing out <b>{{result}} USD</b> in total and my HODLC value will remain the same at the end of the period.",
-        "endHODLCAmount": "I will hold <b>{{result}}</b> HODLC at the end of the period."
-      }
-    }
-  },
-  "graph": {
-    "title": "Historical Graph",
-    "graph1": {
-      "header": "Trading Volume & Price",
-      "dataKey1": "HODLC Price",
-      "dataKey2": "ETH Volume"
-    },
-    "graph2": {
-      "header": "Transactions",
-      "dataKey": "Transactions"
+    "anchor": {
+      "success": "Anchor connect success wait for the page refresh",
+      "fail": "Cannot connect to Anchor"
     }
   },
   "joinUs": {
