@@ -201,7 +201,7 @@
       "header": "取消订单",
       "content": "您确认取消订单吗？",
       "no": "否",
-      "cancel": "取消"
+      "cancel": "取消订单"
     }
   },
   "calculator": {

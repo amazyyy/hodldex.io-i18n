@@ -201,7 +201,7 @@
       "header": "Cancelar Orden",
       "content": "¿Estás seguro de que deseas cancelar este pedido?",
       "no": "No",
-      "cancel": "Cancelar con"
+      "cancel": "Cancelar Orden"
     }
   },
   "calculator": {

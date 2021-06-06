@@ -198,10 +198,10 @@
       "cannotRemoveDust": "Ceci est la poussière originale, aucune transformation ne peut la faire disparaitre."
     },
     "modal": {
-      "header": "Annuler la commande  ",
+      "header": "Annuler la commande",
       "content": "Êtes-vous certain de vouloir annuler cette commande?",
       "no": "Non",
-      "cancel": "Annuler avec"
+      "cancel": "Annuler la commande"
     }
   },
   "calculator": {

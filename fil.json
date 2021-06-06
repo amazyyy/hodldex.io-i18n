@@ -201,7 +201,7 @@
       "header": "ikansela ang order",
       "content": "Sigurado ka bang nais mong kanselahin ang order na ito?",
       "no": "hindi",
-      "cancel": "kanselahin sa"
+      "cancel": "ikansela ang order"
     }
   },
   "calculator": {

@@ -197,7 +197,7 @@
       "header": "Auftrag stornieren",
       "content": "Sind Sie sicher, dass Sie den Auftrag stornieren wollen?",
       "no": "Nein",
-      "cancel": "Abbrechen mit"
+      "cancel": "Auftrag stornieren"
     }
   },
   "calculator": {
