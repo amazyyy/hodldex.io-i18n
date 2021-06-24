@@ -7,3 +7,4 @@ modify-lang:
 # 02-13-2021
 # make srcFile=en.json srcKey=eventList.list.content.type toFile=all modify-lang +7
 # make srcFile=en.json srcKey=wallet-connect toFile=all modify-lang +1
+# make srcFile=en.json srcKey=graph.graph1 toFile=all modify-lang

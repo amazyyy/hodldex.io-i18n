@@ -302,7 +302,8 @@
     "graph1": {
       "header": "Trading Volume & Price",
       "dataKey1": "HODLC Price",
-      "dataKey2": "ETH Volume"
+      "dataKey2": "ETH Volume",
+      "dataKey3": "EOS Volume"
     },
     "graph2": {
       "header": "Transactions",
