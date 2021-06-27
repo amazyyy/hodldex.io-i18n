@@ -297,7 +297,8 @@
     },
     "graph2": {
       "header": "Transactions",
-      "dataKey": "Transactions"
+      "dataKey1": "ETH Transactions",
+      "dataKey2": "EOS Transactions"
     }
   },
   "joinUs": {
