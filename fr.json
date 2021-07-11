@@ -188,7 +188,7 @@
     "alert": "Metamask ou Mist non installés. Vous devriez essayer MetaMask ou Mist!",
     "notify": {
       "cancel": "Annulation de la commande de {{id}}, en attente d'Blockchain pour confirmer.",
-      "notEnoughEth": "Vous n'avez que {{ethAmount}} ETH, allez à la page du portefeuille et déposer suffisamment d'ETH.",
+      "notEnoughCurrency": "Vous n'avez que {{amount}} {{currency}}, allez à la page du portefeuille et déposer suffisamment d'{{currency}}.",
       "sellMin": "Vendre au moins {{min}} HODLC, au taux courant.",
       "sellMax": "Vendre au plus {{max}} HODLC, au taux courant.",
       "successSell": "Vous avez vendu {{hodlc}} HODLC, en attente d'Blockchain pour confirmer.",

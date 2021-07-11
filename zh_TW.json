@@ -188,7 +188,7 @@
     "alert": "未安裝Metamask。 請您考慮使用MetaMask！",
     "notify": {
       "cancel": "取消訂單 {{id}}, 正在等待Ethereum的確認。",
-      "notEnoughEth": "您只有 {{ethAmount}} ETH, 請移步錢包頁面並存入足夠的ETH。",
+      "notEnoughCurrency": "您只有 {{amount}} {{currency}}, 請移步錢包頁面並存入足夠的 {{currency}}。",
       "sellMin": "賣出至少 {{min}} HODLC，以當前價格。",
       "sellMax": "賣出最多 {{max}} HODLC，以當前價格。",
       "successSell": "您賣出 {{hodlc}} HODLC, 正在等待Ethereum的確認。",

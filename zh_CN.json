@@ -188,7 +188,7 @@
     "alert": "未安装Metamask或者Mist。请您考虑使用MetaMask或者Mist！",
     "notify": {
       "cancel": "取消订单 {{id}}, 正在等待Ethereum的确认。",
-      "notEnoughEth": "您只有 {{ethAmount}} ETH, 请移步钱包页面并存入足够的ETH。",
+      "notEnoughCurrency": "您只有 {{amount}} {{currency}}, 请移步钱包页面并存入足够的 {{currency}}。",
       "sellMin": "卖出至少 {{min}} HODLC，以当前价格。",
       "sellMax": "卖出最多 {{max}} HODLC，以当前价格。",
       "successSell": "您卖出 {{hodlc}} HODLC, 正在等待Ethereum的确认。",

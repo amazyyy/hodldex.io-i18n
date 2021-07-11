@@ -188,7 +188,7 @@
     "alert": "Ang Metamask o Mist ay hindi na-install. Dapat mong isaalang-alang ang pagsubok sa MetaMask o Mist! ",
     "notify": {
       "cancel": "kanselahin ang order ng {{id}}, naghihintay para sa kumpirmasyon ng Blockchain. ",
-      "notEnoughEth": "Mayroon ka lamang {{ethAmount}} ETH, pumunta sa pahina ng wallet at magdeposito ng sapat na ETH.",
+      "notEnoughCurrency": "Mayroon ka lamang {{amount}} {{currency}}, pumunta sa pahina ng wallet at magdeposito ng sapat na {{currency}}.",
       "sellMin": "Magbenta ng hindi bababa sa {{min}} HODLC, sa kasalukuyang rate.",
       "sellMax": "Ibenta nang hindi hihigit sa {{max}} HODLC, sa kasalukuyang rate.",
       "successSell": "Nagbebenta ka ng {{hodlc}} HODLC, naghihintay para kumpirmahin ng Blockchain.",
