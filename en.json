@@ -300,6 +300,13 @@
   },
   "graph": {
     "title": "Historical Graph",
+    "interval": {
+      "day": "1 day",
+      "week": "1 week",
+      "biweek": "2 weeks",
+      "month": "1 month",
+      "quarter": "3 months"
+    },
     "graph1": {
       "header": "Trading Volume & Price",
       "dataKey1": "HODLC Price",
