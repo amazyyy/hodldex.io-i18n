@@ -10,4 +10,5 @@ modify-lang:
 # make srcFile=en.json srcKey=graph.graph1 toFile=all modify-lang
 
 # 07-11-2021
-# make srcFile=en.json srcKey=graph.interval toFile=all modify-lang
+# make srcFile=en.json srcKey=graph.intervalOptions toFile=all modify-lang
+# make srcFile=en.json srcKey=graph.lengthOptions toFile=all modify-lang

@@ -300,7 +300,15 @@
   },
   "graph": {
     "title": "Historical Graph",
-    "interval": {
+    "lengthOptions": {
+      "14days": "past 2 weeks",
+      "30days": "past 1 month",
+      "60days": "past 2 months",
+      "90days": "past 3 months",
+      "180days": "past half year",
+      "all": "all time"
+    },
+    "intervalOptions": {
       "day": "1 day",
       "week": "1 week",
       "biweek": "2 weeks",
