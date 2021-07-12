@@ -117,6 +117,7 @@
       "24hour": "nakaraang 1  araw",
       "72hour": "nakaraang 3  araw",
       "168hour": "nakaraang 1  linggo",
+      "720hour": "past 1 month",
       "all": "lahat ng oras"
     },
     "list": {

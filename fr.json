@@ -117,6 +117,7 @@
       "24hour": "dernière journée",
       "72hour": "derniers 3 jours",
       "168hour": "dernière semaine",
+      "720hour": "past 1 month",
       "all": "Tous les événements"
     },
     "list": {

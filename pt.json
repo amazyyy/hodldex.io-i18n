@@ -117,6 +117,7 @@
       "24hour": "past 1 day",
       "72hour": "past 3 day",
       "168hour": "past 1 week",
+      "720hour": "past 1 month",
       "all": "all time"
     },
     "list": {

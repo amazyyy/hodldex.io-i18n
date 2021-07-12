@@ -117,6 +117,7 @@
       "24hour": "ultimo día",
       "72hour": "ultimos 3 días",
       "168hour": "semana pasada",
+      "720hour": "past 1 month",
       "all": "Todo el tiempo"
     },
     "list": {

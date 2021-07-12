@@ -114,6 +114,7 @@
       "24hour": "nach 1 Tag",
       "72hour": "nach 3 Tagen",
       "168hour": "nach 1 Woche",
+      "720hour": "past 1 month",
       "all": "Alle"
     },
     "list": {
